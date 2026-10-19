@@ -10,4 +10,5 @@ settings and have their own folders (`...-seeds10-19-...`).
 the summaries of the exact block minima, progress fractions and correction errors (`assumptions-*.json`).
 
 These records are what `routing/analysis/run_all.py` reads. The full records, with every prompt, model answer,
-returned reasoning and raw API response (3.4 GB), are not part of this repository.
+returned reasoning and raw API response (3.4 GB), are attached to the [v1.0 release](https://github.com/vectozavr/local-work-global-progress/releases/tag/v1.0) as
+`routing-runs-v2.tar.gz`; unpack it into `routing-runs/` to replay the runs or repeat the audit of the constants.
