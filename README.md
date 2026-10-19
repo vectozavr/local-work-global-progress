@@ -101,8 +101,8 @@ data/              records of the routing runs of the paper and the measured con
 `data/` holds the records that `routing/analysis/run_all.py` reads: the plans, final results and replayed summaries
 of all routing runs of the paper, and the constants of the theory measured on them. The full records, with every
 prompt, model answer, returned reasoning and raw API response (3.4 GB, 0.5 GB compressed), are needed only to replay
-the runs or to repeat the audit of the constants; they are in a separate data archive: [link](XXXX). The SQLite and
-synthetic results are not stored: their scripts regenerate them.
+the runs or to repeat the audit of the constants, and are not part of this repository. The SQLite and synthetic
+results are not stored: their scripts regenerate them.
 
 ## License
 

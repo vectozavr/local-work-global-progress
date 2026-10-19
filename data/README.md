@@ -10,4 +10,4 @@ settings and have their own folders (`...-seeds10-19-...`).
 the summaries of the exact block minima, progress fractions and correction errors (`assumptions-*.json`).
 
 These records are what `routing/analysis/run_all.py` reads. The full records, with every prompt, model answer,
-returned reasoning and raw API response (3.4 GB), are in a separate data archive: [link](XXXX).
+returned reasoning and raw API response (3.4 GB), are not part of this repository.
