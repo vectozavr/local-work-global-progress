@@ -1,0 +1,1729 @@
+{
+ "campaign": "team-best-combination-map1-20261017",
+ "correction": true,
+ "planned": 20,
+ "completed": 20,
+ "all_planned_completed": true,
+ "safe_complete": 20,
+ "strict_target": 19,
+ "statistics": {
+  "checked_seconds": {
+   "n": 20,
+   "mean": 339.7399656311,
+   "median": 257.316381042,
+   "minimum": 176.580485876,
+   "maximum": 952.2768337470003,
+   "sample_sd": 196.90890526979362
+  },
+  "sequential_seconds": {
+   "n": 20,
+   "mean": 601.694107331,
+   "median": 514.1546888145001,
+   "minimum": 278.769202958,
+   "maximum": 1117.3618018329998,
+   "sample_sd": 255.50215836855367
+  },
+  "rounds": {
+   "n": 20,
+   "mean": 5.65,
+   "median": 4.5,
+   "minimum": 3,
+   "maximum": 14,
+   "sample_sd": 2.719810364906464
+  },
+  "answers": {
+   "n": 20,
+   "mean": 36.2,
+   "median": 32.0,
+   "minimum": 21,
+   "maximum": 64,
+   "sample_sd": 11.883646436661557
+  },
+  "wall_seconds": {
+   "n": 20,
+   "mean": 355.87175487279893,
+   "median": 263.6082612276077,
+   "minimum": 188.95496010780334,
+   "maximum": 956.4494059085846,
+   "sample_sd": 196.99666044998486
+  },
+  "reported_cost_usd": {
+   "n": 20,
+   "mean": 0.1812932625,
+   "median": 0.157072875,
+   "minimum": 0.08157374999999999,
+   "maximum": 0.32384985,
+   "sample_sd": 0.07428382321472873
+  },
+  "final_F": {
+   "n": 20,
+   "mean": 149.4,
+   "median": 150.0,
+   "minimum": 144.0,
+   "maximum": 154.0,
+   "sample_sd": 3.2183683345512373
+  },
+  "time_to_safe_target_successes_only": {
+   "n": 19,
+   "mean": 307.50118309868424,
+   "median": 252.066869001,
+   "minimum": 176.580485876,
+   "maximum": 594.9716084970001,
+   "sample_sd": 137.78815560105124
+  }
+ },
+ "reported_total_cost_usd": 3.62586525,
+ "independent_replay_passed": true,
+ "runs": [
+  {
+   "final": {
+    "F": 152.0,
+    "delivered": 9,
+    "collisions": 0
+   },
+   "safe": true,
+   "reached_target": true,
+   "termination": "target_reached",
+   "rounds": 3,
+   "answers": 25,
+   "checked_seconds": 191.122698,
+   "sequential_seconds": 375.05324587300004,
+   "wall_seconds": 191.9220838546753,
+   "http_requests": 25,
+   "reported_cost_usd": 0.11005709999999999,
+   "trace": [
+    {
+     "round": 1,
+     "checked_seconds": 53.515986500000004,
+     "sequential_seconds": 102.20777954000002,
+     "F": 594.0,
+     "installed_F": 594.0,
+     "delivered": 6,
+     "collisions": 0,
+     "interference": 243.0
+    },
+    {
+     "round": 2,
+     "checked_seconds": 123.71427504100001,
+     "sequential_seconds": 216.11732416400002,
+     "F": 450.0,
+     "installed_F": 450.0,
+     "delivered": 9,
+     "collisions": 3,
+     "interference": 0.0
+    },
+    {
+     "round": 3,
+     "checked_seconds": 191.122698,
+     "sequential_seconds": 375.05324587300004,
+     "F": 152.0,
+     "installed_F": 152.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    }
+   ],
+   "first_safe_target_seconds": 191.122698,
+   "trial": {
+    "id": "tbc1-00",
+    "replicate": 0,
+    "api_seed_base": 4000000,
+    "path": "team-v2/seed-00"
+   }
+  },
+  {
+   "final": {
+    "F": 152.0,
+    "delivered": 9,
+    "collisions": 0
+   },
+   "safe": true,
+   "reached_target": true,
+   "termination": "target_reached",
+   "rounds": 8,
+   "answers": 53,
+   "checked_seconds": 594.9716084970001,
+   "sequential_seconds": 1096.7673583730002,
+   "wall_seconds": 597.3187079429626,
+   "http_requests": 53,
+   "reported_cost_usd": 0.31994985,
+   "trace": [
+    {
+     "round": 1,
+     "checked_seconds": 41.012468082,
+     "sequential_seconds": 100.22393879,
+     "F": 884.0,
+     "installed_F": 884.0,
+     "delivered": 4,
+     "collisions": 0,
+     "interference": 34.0
+    },
+    {
+     "round": 2,
+     "checked_seconds": 113.04460162299998,
+     "sequential_seconds": 191.26391629,
+     "F": 688.0,
+     "installed_F": 688.0,
+     "delivered": 6,
+     "collisions": 1,
+     "interference": 0.0
+    },
+    {
+     "round": 3,
+     "checked_seconds": 185.639647498,
+     "sequential_seconds": 330.32666466500007,
+     "F": 450.0,
+     "installed_F": 450.0,
+     "delivered": 9,
+     "collisions": 3,
+     "interference": -100.0
+    },
+    {
+     "round": 4,
+     "checked_seconds": 244.68357708099998,
+     "sequential_seconds": 447.1927617890001,
+     "F": 154.0,
+     "installed_F": 154.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 5,
+     "checked_seconds": 344.392078706,
+     "sequential_seconds": 635.471751539,
+     "F": 154.0,
+     "installed_F": 154.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 6,
+     "checked_seconds": 430.760725956,
+     "sequential_seconds": 786.840039663,
+     "F": 154.0,
+     "installed_F": 154.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 7,
+     "checked_seconds": 513.144942248,
+     "sequential_seconds": 944.322025123,
+     "F": 154.0,
+     "installed_F": 154.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 8,
+     "checked_seconds": 594.9716084970001,
+     "sequential_seconds": 1096.7673583730002,
+     "F": 152.0,
+     "installed_F": 152.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    }
+   ],
+   "first_safe_target_seconds": 594.9716084970001,
+   "trial": {
+    "id": "tbc1-01",
+    "replicate": 1,
+    "api_seed_base": 4100000,
+    "path": "team-v2/seed-01"
+   }
+  },
+  {
+   "final": {
+    "F": 153.0,
+    "delivered": 9,
+    "collisions": 0
+   },
+   "safe": true,
+   "reached_target": true,
+   "termination": "target_reached",
+   "rounds": 6,
+   "answers": 38,
+   "checked_seconds": 385.68776570800003,
+   "sequential_seconds": 671.0526766260001,
+   "wall_seconds": 522.3997349739075,
+   "http_requests": 39,
+   "reported_cost_usd": 0.2377617,
+   "trace": [
+    {
+     "round": 1,
+     "checked_seconds": 38.866041209,
+     "sequential_seconds": 82.98166008300001,
+     "F": 717.0,
+     "installed_F": 717.0,
+     "delivered": 6,
+     "collisions": 1,
+     "interference": 244.0
+    },
+    {
+     "round": 2,
+     "checked_seconds": 116.543065834,
+     "sequential_seconds": 195.700312999,
+     "F": 279.0,
+     "installed_F": 279.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 17.0
+    },
+    {
+     "round": 3,
+     "checked_seconds": 188.761459625,
+     "sequential_seconds": 312.280009124,
+     "F": 279.0,
+     "installed_F": 279.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 0.0
+    },
+    {
+     "round": 4,
+     "checked_seconds": 237.550516458,
+     "sequential_seconds": 406.99711575000003,
+     "F": 165.0,
+     "installed_F": 165.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 5,
+     "checked_seconds": 317.366098833,
+     "sequential_seconds": 544.1127479170001,
+     "F": 165.0,
+     "installed_F": 165.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 6,
+     "checked_seconds": 385.68776570800003,
+     "sequential_seconds": 671.0526766260001,
+     "F": 153.0,
+     "installed_F": 153.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    }
+   ],
+   "first_safe_target_seconds": 385.68776570800003,
+   "trial": {
+    "id": "tbc1-02",
+    "replicate": 2,
+    "api_seed_base": 4200000,
+    "path": "team-v2/seed-02"
+   }
+  },
+  {
+   "final": {
+    "F": 148.0,
+    "delivered": 9,
+    "collisions": 0
+   },
+   "safe": true,
+   "reached_target": true,
+   "termination": "target_reached",
+   "rounds": 5,
+   "answers": 32,
+   "checked_seconds": 262.56589308299993,
+   "sequential_seconds": 471.25516912499995,
+   "wall_seconds": 263.59742522239685,
+   "http_requests": 32,
+   "reported_cost_usd": 0.1404216,
+   "trace": [
+    {
+     "round": 1,
+     "checked_seconds": 46.201712791999995,
+     "sequential_seconds": 62.726018124999996,
+     "F": 485.0,
+     "installed_F": 485.0,
+     "delivered": 9,
+     "collisions": 3,
+     "interference": 100.0
+    },
+    {
+     "round": 2,
+     "checked_seconds": 94.16674591699999,
+     "sequential_seconds": 172.756629083,
+     "F": 289.0,
+     "installed_F": 289.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 0.0
+    },
+    {
+     "round": 3,
+     "checked_seconds": 159.29140091699998,
+     "sequential_seconds": 297.478165334,
+     "F": 189.0,
+     "installed_F": 189.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 4,
+     "checked_seconds": 213.38558145899995,
+     "sequential_seconds": 400.435664126,
+     "F": 161.0,
+     "installed_F": 161.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 5,
+     "checked_seconds": 262.56589308299993,
+     "sequential_seconds": 471.25516912499995,
+     "F": 148.0,
+     "installed_F": 148.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    }
+   ],
+   "first_safe_target_seconds": 262.56589308299993,
+   "trial": {
+    "id": "tbc1-03",
+    "replicate": 3,
+    "api_seed_base": 4300000,
+    "path": "team-v2/seed-03"
+   }
+  },
+  {
+   "final": {
+    "F": 148.0,
+    "delivered": 9,
+    "collisions": 0
+   },
+   "safe": true,
+   "reached_target": true,
+   "termination": "target_reached",
+   "rounds": 5,
+   "answers": 37,
+   "checked_seconds": 252.066869001,
+   "sequential_seconds": 512.2790308350001,
+   "wall_seconds": 253.21683597564697,
+   "http_requests": 37,
+   "reported_cost_usd": 0.15114870000000005,
+   "trace": [
+    {
+     "round": 1,
+     "checked_seconds": 41.864582291000005,
+     "sequential_seconds": 92.95083404,
+     "F": 712.0,
+     "installed_F": 712.0,
+     "delivered": 6,
+     "collisions": 1,
+     "interference": 142.0
+    },
+    {
+     "round": 2,
+     "checked_seconds": 105.128509041,
+     "sequential_seconds": 231.530681291,
+     "F": 368.0,
+     "installed_F": 368.0,
+     "delivered": 9,
+     "collisions": 2,
+     "interference": 0.0
+    },
+    {
+     "round": 3,
+     "checked_seconds": 164.751987541,
+     "sequential_seconds": 379.44738783300005,
+     "F": 158.0,
+     "installed_F": 158.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 4,
+     "checked_seconds": 206.593475958,
+     "sequential_seconds": 460.5222247500001,
+     "F": 158.0,
+     "installed_F": 158.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 5,
+     "checked_seconds": 252.066869001,
+     "sequential_seconds": 512.2790308350001,
+     "F": 148.0,
+     "installed_F": 148.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    }
+   ],
+   "first_safe_target_seconds": 252.066869001,
+   "trial": {
+    "id": "tbc1-04",
+    "replicate": 4,
+    "api_seed_base": 4400000,
+    "path": "team-v2/seed-04"
+   }
+  },
+  {
+   "final": {
+    "F": 145.0,
+    "delivered": 9,
+    "collisions": 0
+   },
+   "safe": true,
+   "reached_target": true,
+   "termination": "target_reached",
+   "rounds": 4,
+   "answers": 21,
+   "checked_seconds": 197.842787457,
+   "sequential_seconds": 278.769202958,
+   "wall_seconds": 198.5801808834076,
+   "http_requests": 21,
+   "reported_cost_usd": 0.08157374999999999,
+   "trace": [
+    {
+     "round": 1,
+     "checked_seconds": 40.632974541,
+     "sequential_seconds": 86.12407166700001,
+     "F": 688.0,
+     "installed_F": 688.0,
+     "delivered": 6,
+     "collisions": 1,
+     "interference": 344.0
+    },
+    {
+     "round": 2,
+     "checked_seconds": 100.56302287399998,
+     "sequential_seconds": 174.064102833,
+     "F": 441.0,
+     "installed_F": 441.0,
+     "delivered": 7,
+     "collisions": 0,
+     "interference": 99.0
+    },
+    {
+     "round": 3,
+     "checked_seconds": 160.56597154099998,
+     "sequential_seconds": 234.0670515,
+     "F": 250.0,
+     "installed_F": 250.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 0.0
+    },
+    {
+     "round": 4,
+     "checked_seconds": 197.842787457,
+     "sequential_seconds": 278.769202958,
+     "F": 145.0,
+     "installed_F": 145.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    }
+   ],
+   "first_safe_target_seconds": 197.842787457,
+   "trial": {
+    "id": "tbc1-05",
+    "replicate": 5,
+    "api_seed_base": 4500000,
+    "path": "team-v2/seed-05"
+   }
+  },
+  {
+   "final": {
+    "F": 145.0,
+    "delivered": 9,
+    "collisions": 0
+   },
+   "safe": true,
+   "reached_target": true,
+   "termination": "target_reached",
+   "rounds": 5,
+   "answers": 37,
+   "checked_seconds": 292.4749957910001,
+   "sequential_seconds": 633.4928946670002,
+   "wall_seconds": 293.767293214798,
+   "http_requests": 37,
+   "reported_cost_usd": 0.18885869999999996,
+   "trace": [
+    {
+     "round": 1,
+     "checked_seconds": 51.668990249000004,
+     "sequential_seconds": 99.848418541,
+     "F": 764.0,
+     "installed_F": 764.0,
+     "delivered": 9,
+     "collisions": 6,
+     "interference": -24.0
+    },
+    {
+     "round": 2,
+     "checked_seconds": 110.97868074900002,
+     "sequential_seconds": 270.516274875,
+     "F": 566.0,
+     "installed_F": 566.0,
+     "delivered": 9,
+     "collisions": 4,
+     "interference": 0.0
+    },
+    {
+     "round": 3,
+     "checked_seconds": 189.139183999,
+     "sequential_seconds": 452.19137512400005,
+     "F": 275.0,
+     "installed_F": 275.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 196.0
+    },
+    {
+     "round": 4,
+     "checked_seconds": 234.22874341500003,
+     "sequential_seconds": 529.8827143320001,
+     "F": 248.0,
+     "installed_F": 248.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 0.0
+    },
+    {
+     "round": 5,
+     "checked_seconds": 292.4749957910001,
+     "sequential_seconds": 633.4928946670002,
+     "F": 145.0,
+     "installed_F": 145.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    }
+   ],
+   "first_safe_target_seconds": 292.4749957910001,
+   "trial": {
+    "id": "tbc1-06",
+    "replicate": 6,
+    "api_seed_base": 4600000,
+    "path": "team-v2/seed-06"
+   }
+  },
+  {
+   "final": {
+    "F": 144.0,
+    "delivered": 9,
+    "collisions": 0
+   },
+   "safe": true,
+   "reached_target": true,
+   "termination": "target_reached",
+   "rounds": 4,
+   "answers": 26,
+   "checked_seconds": 198.33248487399996,
+   "sequential_seconds": 365.53094316299996,
+   "wall_seconds": 225.7383999824524,
+   "http_requests": 27,
+   "reported_cost_usd": 0.11350215000000001,
+   "trace": [
+    {
+     "round": 1,
+     "checked_seconds": 34.727415791,
+     "sequential_seconds": 84.341762957,
+     "F": 456.0,
+     "installed_F": 456.0,
+     "delivered": 9,
+     "collisions": 3,
+     "interference": -400.0
+    },
+    {
+     "round": 2,
+     "checked_seconds": 104.87754078999998,
+     "sequential_seconds": 235.83870120499995,
+     "F": 257.0,
+     "installed_F": 257.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 0.0
+    },
+    {
+     "round": 3,
+     "checked_seconds": 152.501899749,
+     "sequential_seconds": 319.700358038,
+     "F": 154.0,
+     "installed_F": 154.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 4,
+     "checked_seconds": 198.33248487399996,
+     "sequential_seconds": 365.53094316299996,
+     "F": 144.0,
+     "installed_F": 144.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    }
+   ],
+   "first_safe_target_seconds": 198.33248487399996,
+   "trial": {
+    "id": "tbc1-07",
+    "replicate": 7,
+    "api_seed_base": 4700000,
+    "path": "team-v2/seed-07"
+   }
+  },
+  {
+   "final": {
+    "F": 152.0,
+    "delivered": 9,
+    "collisions": 0
+   },
+   "safe": true,
+   "reached_target": true,
+   "termination": "target_reached",
+   "rounds": 3,
+   "answers": 25,
+   "checked_seconds": 176.580485876,
+   "sequential_seconds": 417.6064540859999,
+   "wall_seconds": 309.5003077983856,
+   "http_requests": 26,
+   "reported_cost_usd": 0.1621425,
+   "trace": [
+    {
+     "round": 1,
+     "checked_seconds": 35.972748584,
+     "sequential_seconds": 76.225883501,
+     "F": 728.0,
+     "installed_F": 728.0,
+     "delivered": 6,
+     "collisions": 1,
+     "interference": -264.0
+    },
+    {
+     "round": 2,
+     "checked_seconds": 102.92800362599998,
+     "sequential_seconds": 236.17951895999997,
+     "F": 547.0,
+     "installed_F": 547.0,
+     "delivered": 9,
+     "collisions": 4,
+     "interference": 0.0
+    },
+    {
+     "round": 3,
+     "checked_seconds": 176.580485876,
+     "sequential_seconds": 417.6064540859999,
+     "F": 152.0,
+     "installed_F": 152.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    }
+   ],
+   "first_safe_target_seconds": 176.580485876,
+   "trial": {
+    "id": "tbc1-08",
+    "replicate": 8,
+    "api_seed_base": 4800000,
+    "path": "team-v2/seed-08"
+   }
+  },
+  {
+   "final": {
+    "F": 153.0,
+    "delivered": 9,
+    "collisions": 0
+   },
+   "safe": true,
+   "reached_target": true,
+   "termination": "target_reached",
+   "rounds": 9,
+   "answers": 64,
+   "checked_seconds": 565.6314358749999,
+   "sequential_seconds": 1117.3618018329998,
+   "wall_seconds": 568.5959930419922,
+   "http_requests": 64,
+   "reported_cost_usd": 0.32384985,
+   "trace": [
+    {
+     "round": 1,
+     "checked_seconds": 36.797802042,
+     "sequential_seconds": 88.612717085,
+     "F": 790.0,
+     "installed_F": 790.0,
+     "delivered": 6,
+     "collisions": 2,
+     "interference": 444.0
+    },
+    {
+     "round": 2,
+     "checked_seconds": 152.32559487500004,
+     "sequential_seconds": 267.244301084,
+     "F": 450.0,
+     "installed_F": 450.0,
+     "delivered": 9,
+     "collisions": 3,
+     "interference": 100.0
+    },
+    {
+     "round": 3,
+     "checked_seconds": 206.72976250000002,
+     "sequential_seconds": 409.495283084,
+     "F": 261.0,
+     "installed_F": 261.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 98.0
+    },
+    {
+     "round": 4,
+     "checked_seconds": 262.087791626,
+     "sequential_seconds": 532.4310975430001,
+     "F": 253.0,
+     "installed_F": 253.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 0.0
+    },
+    {
+     "round": 5,
+     "checked_seconds": 367.67842808399996,
+     "sequential_seconds": 755.906672542,
+     "F": 252.0,
+     "installed_F": 252.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 0.0
+    },
+    {
+     "round": 6,
+     "checked_seconds": 431.75329458399995,
+     "sequential_seconds": 880.673492042,
+     "F": 252.0,
+     "installed_F": 252.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 0.0
+    },
+    {
+     "round": 7,
+     "checked_seconds": 476.9821942079999,
+     "sequential_seconds": 969.214264833,
+     "F": 156.0,
+     "installed_F": 156.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 8,
+     "checked_seconds": 518.6285941659999,
+     "sequential_seconds": 1036.821182666,
+     "F": 156.0,
+     "installed_F": 156.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 9,
+     "checked_seconds": 565.6314358749999,
+     "sequential_seconds": 1117.3618018329998,
+     "F": 153.0,
+     "installed_F": 153.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    }
+   ],
+   "first_safe_target_seconds": 565.6314358749999,
+   "trial": {
+    "id": "tbc1-09",
+    "replicate": 9,
+    "api_seed_base": 4900000,
+    "path": "team-v2/seed-09"
+   }
+  },
+  {
+   "final": {
+    "F": 153.0,
+    "delivered": 9,
+    "collisions": 0
+   },
+   "safe": true,
+   "reached_target": true,
+   "termination": "target_reached",
+   "rounds": 4,
+   "answers": 31,
+   "checked_seconds": 227.712013708,
+   "sequential_seconds": 487.22941908499996,
+   "wall_seconds": 228.55860495567322,
+   "http_requests": 31,
+   "reported_cost_usd": 0.14250434999999997,
+   "trace": [
+    {
+     "round": 1,
+     "checked_seconds": 42.401389375,
+     "sequential_seconds": 99.709286917,
+     "F": 546.0,
+     "installed_F": 546.0,
+     "delivered": 9,
+     "collisions": 4,
+     "interference": 200.0
+    },
+    {
+     "round": 2,
+     "checked_seconds": 118.43652062499999,
+     "sequential_seconds": 258.145952042,
+     "F": 353.0,
+     "installed_F": 353.0,
+     "delivered": 9,
+     "collisions": 2,
+     "interference": 0.0
+    },
+    {
+     "round": 3,
+     "checked_seconds": 175.156851583,
+     "sequential_seconds": 400.14716091699995,
+     "F": 155.0,
+     "installed_F": 155.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 99.0
+    },
+    {
+     "round": 4,
+     "checked_seconds": 227.712013708,
+     "sequential_seconds": 487.22941908499996,
+     "F": 153.0,
+     "installed_F": 153.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    }
+   ],
+   "first_safe_target_seconds": 227.712013708,
+   "trial": {
+    "id": "tbc1-10",
+    "replicate": 10,
+    "api_seed_base": 5000000,
+    "path": "team-v2/seed-10"
+   }
+  },
+  {
+   "final": {
+    "F": 149.0,
+    "delivered": 9,
+    "collisions": 0
+   },
+   "safe": true,
+   "reached_target": true,
+   "termination": "target_reached",
+   "rounds": 6,
+   "answers": 32,
+   "checked_seconds": 383.80907062600016,
+   "sequential_seconds": 574.4973955430003,
+   "wall_seconds": 385.27628684043884,
+   "http_requests": 32,
+   "reported_cost_usd": 0.169239,
+   "trace": [
+    {
+     "round": 1,
+     "checked_seconds": 60.799826833,
+     "sequential_seconds": 132.93659837299998,
+     "F": 992.0,
+     "installed_F": 992.0,
+     "delivered": 6,
+     "collisions": 4,
+     "interference": 194.0
+    },
+    {
+     "round": 2,
+     "checked_seconds": 156.97713141699998,
+     "sequential_seconds": 247.43858779099997,
+     "F": 548.0,
+     "installed_F": 548.0,
+     "delivered": 9,
+     "collisions": 4,
+     "interference": 0.0
+    },
+    {
+     "round": 3,
+     "checked_seconds": 221.702322166,
+     "sequential_seconds": 375.952881208,
+     "F": 250.0,
+     "installed_F": 250.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 192.0
+    },
+    {
+     "round": 4,
+     "checked_seconds": 279.247085833,
+     "sequential_seconds": 469.93541075,
+     "F": 249.0,
+     "installed_F": 249.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 0.0
+    },
+    {
+     "round": 5,
+     "checked_seconds": 331.1627357090001,
+     "sequential_seconds": 521.8510606260002,
+     "F": 249.0,
+     "installed_F": 249.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 0.0
+    },
+    {
+     "round": 6,
+     "checked_seconds": 383.80907062600016,
+     "sequential_seconds": 574.4973955430003,
+     "F": 149.0,
+     "installed_F": 149.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    }
+   ],
+   "first_safe_target_seconds": 383.80907062600016,
+   "trial": {
+    "id": "tbc1-11",
+    "replicate": 11,
+    "api_seed_base": 5100000,
+    "path": "team-v2/seed-11"
+   }
+  },
+  {
+   "final": {
+    "F": 150.0,
+    "delivered": 9,
+    "collisions": 0
+   },
+   "safe": true,
+   "reached_target": true,
+   "termination": "target_reached",
+   "rounds": 4,
+   "answers": 29,
+   "checked_seconds": 230.22823345699996,
+   "sequential_seconds": 447.82320908199995,
+   "wall_seconds": 231.014417886734,
+   "http_requests": 29,
+   "reported_cost_usd": 0.13119885,
+   "trace": [
+    {
+     "round": 1,
+     "checked_seconds": 40.600957249,
+     "sequential_seconds": 86.510123749,
+     "F": 649.0,
+     "installed_F": 649.0,
+     "delivered": 9,
+     "collisions": 5,
+     "interference": 200.0
+    },
+    {
+     "round": 2,
+     "checked_seconds": 93.965952999,
+     "sequential_seconds": 219.76648624900002,
+     "F": 257.0,
+     "installed_F": 257.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 95.0
+    },
+    {
+     "round": 3,
+     "checked_seconds": 179.10424679099998,
+     "sequential_seconds": 373.449844874,
+     "F": 157.0,
+     "installed_F": 157.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 4,
+     "checked_seconds": 230.22823345699996,
+     "sequential_seconds": 447.82320908199995,
+     "F": 150.0,
+     "installed_F": 150.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    }
+   ],
+   "first_safe_target_seconds": 230.22823345699996,
+   "trial": {
+    "id": "tbc1-12",
+    "replicate": 12,
+    "api_seed_base": 5200000,
+    "path": "team-v2/seed-12"
+   }
+  },
+  {
+   "final": {
+    "F": 146.0,
+    "delivered": 9,
+    "collisions": 0
+   },
+   "safe": true,
+   "reached_target": true,
+   "termination": "target_reached",
+   "rounds": 4,
+   "answers": 27,
+   "checked_seconds": 223.74300945899995,
+   "sequential_seconds": 396.98850379099997,
+   "wall_seconds": 224.49477100372314,
+   "http_requests": 27,
+   "reported_cost_usd": 0.11534430000000001,
+   "trace": [
+    {
+     "round": 1,
+     "checked_seconds": 33.673729667,
+     "sequential_seconds": 74.386869,
+     "F": 705.0,
+     "installed_F": 705.0,
+     "delivered": 6,
+     "collisions": 1,
+     "interference": 444.0
+    },
+    {
+     "round": 2,
+     "checked_seconds": 89.71400424999999,
+     "sequential_seconds": 181.238497999,
+     "F": 263.0,
+     "installed_F": 263.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 115.0
+    },
+    {
+     "round": 3,
+     "checked_seconds": 146.42106558399996,
+     "sequential_seconds": 301.008216916,
+     "F": 161.0,
+     "installed_F": 161.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 98.0
+    },
+    {
+     "round": 4,
+     "checked_seconds": 223.74300945899995,
+     "sequential_seconds": 396.98850379099997,
+     "F": 146.0,
+     "installed_F": 146.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    }
+   ],
+   "first_safe_target_seconds": 223.74300945899995,
+   "trial": {
+    "id": "tbc1-13",
+    "replicate": 13,
+    "api_seed_base": 5300000,
+    "path": "team-v2/seed-13"
+   }
+  },
+  {
+   "final": {
+    "F": 154.0,
+    "delivered": 9,
+    "collisions": 0
+   },
+   "safe": true,
+   "reached_target": false,
+   "termination": "no_improvement_patience_exhausted",
+   "rounds": 14,
+   "answers": 55,
+   "checked_seconds": 952.2768337470003,
+   "sequential_seconds": 1083.7987861220004,
+   "wall_seconds": 956.4494059085846,
+   "http_requests": 55,
+   "reported_cost_usd": 0.31628969999999995,
+   "trace": [
+    {
+     "round": 1,
+     "checked_seconds": 30.527211583,
+     "sequential_seconds": 69.812550667,
+     "F": 688.0,
+     "installed_F": 688.0,
+     "delivered": 6,
+     "collisions": 1,
+     "interference": 534.0
+    },
+    {
+     "round": 2,
+     "checked_seconds": 87.65514054,
+     "sequential_seconds": 178.18579499799998,
+     "F": 582.0,
+     "installed_F": 582.0,
+     "delivered": 8,
+     "collisions": 3,
+     "interference": -6.0
+    },
+    {
+     "round": 3,
+     "checked_seconds": 182.98546949799996,
+     "sequential_seconds": 314.5074218729999,
+     "F": 254.0,
+     "installed_F": 254.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 0.0
+    },
+    {
+     "round": 4,
+     "checked_seconds": 263.42081933099996,
+     "sequential_seconds": 394.9427717059999,
+     "F": 156.0,
+     "installed_F": 156.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 5,
+     "checked_seconds": 340.15266687300004,
+     "sequential_seconds": 471.674619248,
+     "F": 156.0,
+     "installed_F": 156.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 6,
+     "checked_seconds": 403.02572583200003,
+     "sequential_seconds": 534.547678207,
+     "F": 156.0,
+     "installed_F": 156.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 7,
+     "checked_seconds": 459.10257358200005,
+     "sequential_seconds": 590.6245259570001,
+     "F": 156.0,
+     "installed_F": 156.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 8,
+     "checked_seconds": 521.655882623,
+     "sequential_seconds": 653.177834998,
+     "F": 155.0,
+     "installed_F": 155.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 9,
+     "checked_seconds": 611.850577705,
+     "sequential_seconds": 743.3725300799999,
+     "F": 154.0,
+     "installed_F": 154.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 10,
+     "checked_seconds": 702.912852163,
+     "sequential_seconds": 834.434804538,
+     "F": 154.0,
+     "installed_F": 154.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 11,
+     "checked_seconds": 753.408581246,
+     "sequential_seconds": 884.930533621,
+     "F": 154.0,
+     "installed_F": 154.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 12,
+     "checked_seconds": 818.920439371,
+     "sequential_seconds": 950.442391746,
+     "F": 154.0,
+     "installed_F": 154.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 13,
+     "checked_seconds": 883.3280947890001,
+     "sequential_seconds": 1014.8500471640001,
+     "F": 154.0,
+     "installed_F": 154.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 14,
+     "checked_seconds": 952.2768337470003,
+     "sequential_seconds": 1083.7987861220004,
+     "F": 154.0,
+     "installed_F": 154.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    }
+   ],
+   "first_safe_target_seconds": null,
+   "trial": {
+    "id": "tbc1-14",
+    "replicate": 14,
+    "api_seed_base": 5400000,
+    "path": "team-v2/seed-14"
+   }
+  },
+  {
+   "final": {
+    "F": 150.0,
+    "delivered": 9,
+    "collisions": 0
+   },
+   "safe": true,
+   "reached_target": true,
+   "termination": "target_reached",
+   "rounds": 4,
+   "answers": 34,
+   "checked_seconds": 216.55759787600002,
+   "sequential_seconds": 567.0895819980001,
+   "wall_seconds": 217.41999793052673,
+   "http_requests": 34,
+   "reported_cost_usd": 0.16877429999999996,
+   "trace": [
+    {
+     "round": 1,
+     "checked_seconds": 35.826732082999996,
+     "sequential_seconds": 86.75269808299998,
+     "F": 992.0,
+     "installed_F": 992.0,
+     "delivered": 6,
+     "collisions": 4,
+     "interference": 239.0
+    },
+    {
+     "round": 2,
+     "checked_seconds": 100.215034167,
+     "sequential_seconds": 272.101866874,
+     "F": 258.0,
+     "installed_F": 258.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": -105.0
+    },
+    {
+     "round": 3,
+     "checked_seconds": 157.537669542,
+     "sequential_seconds": 435.228869332,
+     "F": 160.0,
+     "installed_F": 160.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 4,
+     "checked_seconds": 216.55759787600002,
+     "sequential_seconds": 567.0895819980001,
+     "F": 150.0,
+     "installed_F": 150.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    }
+   ],
+   "first_safe_target_seconds": 216.55759787600002,
+   "trial": {
+    "id": "tbc1-15",
+    "replicate": 15,
+    "api_seed_base": 5500000,
+    "path": "team-v2/seed-15"
+   }
+  },
+  {
+   "final": {
+    "F": 150.0,
+    "delivered": 9,
+    "collisions": 0
+   },
+   "safe": true,
+   "reached_target": true,
+   "termination": "target_reached",
+   "rounds": 9,
+   "answers": 41,
+   "checked_seconds": 549.006269667,
+   "sequential_seconds": 728.1127199989999,
+   "wall_seconds": 551.4494059085846,
+   "http_requests": 41,
+   "reported_cost_usd": 0.21776639999999997,
+   "trace": [
+    {
+     "round": 1,
+     "checked_seconds": 46.792217208000004,
+     "sequential_seconds": 102.637985707,
+     "F": 589.0,
+     "installed_F": 589.0,
+     "delivered": 8,
+     "collisions": 3,
+     "interference": -300.0
+    },
+    {
+     "round": 2,
+     "checked_seconds": 101.044535583,
+     "sequential_seconds": 225.80063624899998,
+     "F": 159.0,
+     "installed_F": 159.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 102.0
+    },
+    {
+     "round": 3,
+     "checked_seconds": 171.166465959,
+     "sequential_seconds": 324.599452041,
+     "F": 159.0,
+     "installed_F": 159.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 4,
+     "checked_seconds": 252.30439629199998,
+     "sequential_seconds": 431.410846624,
+     "F": 157.0,
+     "installed_F": 157.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 5,
+     "checked_seconds": 309.4925388339999,
+     "sequential_seconds": 488.5989891659999,
+     "F": 157.0,
+     "installed_F": 157.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 6,
+     "checked_seconds": 349.61673816699994,
+     "sequential_seconds": 528.7231884989999,
+     "F": 157.0,
+     "installed_F": 157.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 7,
+     "checked_seconds": 412.27469599999995,
+     "sequential_seconds": 591.3811463319998,
+     "F": 157.0,
+     "installed_F": 157.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 8,
+     "checked_seconds": 476.954679918,
+     "sequential_seconds": 656.0611302499999,
+     "F": 157.0,
+     "installed_F": 157.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 9,
+     "checked_seconds": 549.006269667,
+     "sequential_seconds": 728.1127199989999,
+     "F": 150.0,
+     "installed_F": 150.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    }
+   ],
+   "first_safe_target_seconds": 549.006269667,
+   "trial": {
+    "id": "tbc1-16",
+    "replicate": 16,
+    "api_seed_base": 5600000,
+    "path": "team-v2/seed-16"
+   }
+  },
+  {
+   "final": {
+    "F": 144.0,
+    "delivered": 9,
+    "collisions": 0
+   },
+   "safe": true,
+   "reached_target": true,
+   "termination": "target_reached",
+   "rounds": 8,
+   "answers": 56,
+   "checked_seconds": 443.19005354200004,
+   "sequential_seconds": 884.061898208,
+   "wall_seconds": 445.5611867904663,
+   "http_requests": 56,
+   "reported_cost_usd": 0.26313195000000006,
+   "trace": [
+    {
+     "round": 1,
+     "checked_seconds": 46.465474998999994,
+     "sequential_seconds": 118.909609207,
+     "F": 800.0,
+     "installed_F": 800.0,
+     "delivered": 6,
+     "collisions": 2,
+     "interference": 344.0
+    },
+    {
+     "round": 2,
+     "checked_seconds": 98.136014625,
+     "sequential_seconds": 234.60934787400004,
+     "F": 612.0,
+     "installed_F": 612.0,
+     "delivered": 8,
+     "collisions": 3,
+     "interference": 104.0
+    },
+    {
+     "round": 3,
+     "checked_seconds": 157.776794375,
+     "sequential_seconds": 394.78152470800006,
+     "F": 466.0,
+     "installed_F": 466.0,
+     "delivered": 9,
+     "collisions": 3,
+     "interference": 100.0
+    },
+    {
+     "round": 4,
+     "checked_seconds": 208.93992416600003,
+     "sequential_seconds": 515.368672541,
+     "F": 352.0,
+     "installed_F": 352.0,
+     "delivered": 9,
+     "collisions": 2,
+     "interference": 0.0
+    },
+    {
+     "round": 5,
+     "checked_seconds": 257.222451708,
+     "sequential_seconds": 596.001721083,
+     "F": 352.0,
+     "installed_F": 352.0,
+     "delivered": 9,
+     "collisions": 2,
+     "interference": 0.0
+    },
+    {
+     "round": 6,
+     "checked_seconds": 324.221754708,
+     "sequential_seconds": 707.257621583,
+     "F": 252.0,
+     "installed_F": 252.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 0.0
+    },
+    {
+     "round": 7,
+     "checked_seconds": 387.8770285840001,
+     "sequential_seconds": 816.183066125,
+     "F": 155.0,
+     "installed_F": 155.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 8,
+     "checked_seconds": 443.19005354200004,
+     "sequential_seconds": 884.061898208,
+     "F": 144.0,
+     "installed_F": 144.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": -6.0
+    }
+   ],
+   "first_safe_target_seconds": 443.19005354200004,
+   "trial": {
+    "id": "tbc1-17",
+    "replicate": 17,
+    "api_seed_base": 5700000,
+    "path": "team-v2/seed-17"
+   }
+  },
+  {
+   "final": {
+    "F": 149.0,
+    "delivered": 9,
+    "collisions": 0
+   },
+   "safe": true,
+   "reached_target": true,
+   "termination": "target_reached",
+   "rounds": 4,
+   "answers": 30,
+   "checked_seconds": 262.786969419,
+   "sequential_seconds": 516.030346794,
+   "wall_seconds": 263.6190972328186,
+   "http_requests": 30,
+   "reported_cost_usd": 0.15200324999999998,
+   "trace": [
+    {
+     "round": 1,
+     "checked_seconds": 47.748304043,
+     "sequential_seconds": 86.348612336,
+     "F": 590.0,
+     "installed_F": 590.0,
+     "delivered": 6,
+     "collisions": 0,
+     "interference": 244.0
+    },
+    {
+     "round": 2,
+     "checked_seconds": 106.589310543,
+     "sequential_seconds": 197.120969128,
+     "F": 449.0,
+     "installed_F": 449.0,
+     "delivered": 9,
+     "collisions": 3,
+     "interference": 0.0
+    },
+    {
+     "round": 3,
+     "checked_seconds": 180.45375379299998,
+     "sequential_seconds": 364.305523961,
+     "F": 251.0,
+     "installed_F": 251.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 0.0
+    },
+    {
+     "round": 4,
+     "checked_seconds": 262.786969419,
+     "sequential_seconds": 516.030346794,
+     "F": 149.0,
+     "installed_F": 149.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    }
+   ],
+   "first_safe_target_seconds": 262.786969419,
+   "trial": {
+    "id": "tbc1-18",
+    "replicate": 18,
+    "api_seed_base": 5800000,
+    "path": "team-v2/seed-18"
+   }
+  },
+  {
+   "final": {
+    "F": 151.0,
+    "delivered": 9,
+    "collisions": 0
+   },
+   "safe": true,
+   "reached_target": true,
+   "termination": "target_reached",
+   "rounds": 4,
+   "answers": 31,
+   "checked_seconds": 188.21223695899997,
+   "sequential_seconds": 409.08150845899996,
+   "wall_seconds": 188.95496010780334,
+   "http_requests": 31,
+   "reported_cost_usd": 0.12034724999999999,
+   "trace": [
+    {
+     "round": 1,
+     "checked_seconds": 31.358008958,
+     "sequential_seconds": 89.53345241599999,
+     "F": 548.0,
+     "installed_F": 548.0,
+     "delivered": 9,
+     "collisions": 4,
+     "interference": 200.0
+    },
+    {
+     "round": 2,
+     "checked_seconds": 86.054341833,
+     "sequential_seconds": 223.740262291,
+     "F": 261.0,
+     "installed_F": 261.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 92.0
+    },
+    {
+     "round": 3,
+     "checked_seconds": 129.462296166,
+     "sequential_seconds": 323.50517449899996,
+     "F": 161.0,
+     "installed_F": 161.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 4,
+     "checked_seconds": 188.21223695899997,
+     "sequential_seconds": 409.08150845899996,
+     "F": 151.0,
+     "installed_F": 151.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    }
+   ],
+   "first_safe_target_seconds": 188.21223695899997,
+   "trial": {
+    "id": "tbc1-19",
+    "replicate": 19,
+    "api_seed_base": 5900000,
+    "path": "team-v2/seed-19"
+   }
+  }
+ ]
+}

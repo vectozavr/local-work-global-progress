@@ -1,0 +1,109 @@
+{
+  "workspace": ".",
+  "model": "openai/gpt-oss-120b",
+  "provider": "groq",
+  "reasoning_effort": "medium",
+  "temperature": 0.6,
+  "top_p": 0.95,
+  "timeout": 3600.0,
+  "hard_deadline": null,
+  "api_seed": true,
+  "retry_seed_policy": "resample",
+  "target_F": 153.0,
+  "format_attempts": 3,
+  "transport_attempts": 20,
+  "initial_F": 1476.0,
+  "certified_global_minimum": 144.0,
+  "map_file_sha256": "437a6163b7757e618709c47390017da686c790ffa2b77435594ad369dd90b77d",
+  "token_policy": "No max_tokens, max_completion_tokens or reasoning token cap is sent.",
+  "created_utc": "2026-10-16T01:55:52Z",
+  "version": 1,
+  "profile": "ninecars-single-v2-exact-3",
+  "protocol_script": "protocol_openrouter_single_v2.py",
+  "arm": "single_v2_exact3",
+  "prompt_version": "single-v2-k3-best1-exact",
+  "width": 1,
+  "max_updated_robots": 3,
+  "round_budget": 120,
+  "patience_rounds": 15,
+  "replicates": 10,
+  "cars": 9,
+  "description": "Single agent that replaces exactly three robots of its choice per answer with the v2 prompt: the complete checked state of the installed plan (map with axes and an explicit wall list, every program and cost, a tick-by-tick timeline of all robots, every current collision with maps of the tick before and the tick of the collision), the accepted changes so far, and every attempt rejected on the installed plan. No route, distance to the optimum or repair strategy.",
+  "stopping": "15 answers without improvement, safe plan with F<=153, or 120 answers",
+  "seed_design": "answer r uses api seed base + 1000 r; base = 4000000 + 100000 * replicate",
+  "trials": [
+    {
+      "id": "v2exact3-00",
+      "arm": "single_v2_exact3",
+      "replicate": 0,
+      "api_seed_base": 4000000,
+      "path": "single-v2-exact3/seed-00"
+    },
+    {
+      "id": "v2exact3-01",
+      "arm": "single_v2_exact3",
+      "replicate": 1,
+      "api_seed_base": 4100000,
+      "path": "single-v2-exact3/seed-01"
+    },
+    {
+      "id": "v2exact3-02",
+      "arm": "single_v2_exact3",
+      "replicate": 2,
+      "api_seed_base": 4200000,
+      "path": "single-v2-exact3/seed-02"
+    },
+    {
+      "id": "v2exact3-03",
+      "arm": "single_v2_exact3",
+      "replicate": 3,
+      "api_seed_base": 4300000,
+      "path": "single-v2-exact3/seed-03"
+    },
+    {
+      "id": "v2exact3-04",
+      "arm": "single_v2_exact3",
+      "replicate": 4,
+      "api_seed_base": 4400000,
+      "path": "single-v2-exact3/seed-04"
+    },
+    {
+      "id": "v2exact3-05",
+      "arm": "single_v2_exact3",
+      "replicate": 5,
+      "api_seed_base": 4500000,
+      "path": "single-v2-exact3/seed-05"
+    },
+    {
+      "id": "v2exact3-06",
+      "arm": "single_v2_exact3",
+      "replicate": 6,
+      "api_seed_base": 4600000,
+      "path": "single-v2-exact3/seed-06"
+    },
+    {
+      "id": "v2exact3-07",
+      "arm": "single_v2_exact3",
+      "replicate": 7,
+      "api_seed_base": 4700000,
+      "path": "single-v2-exact3/seed-07"
+    },
+    {
+      "id": "v2exact3-08",
+      "arm": "single_v2_exact3",
+      "replicate": 8,
+      "api_seed_base": 4800000,
+      "path": "single-v2-exact3/seed-08"
+    },
+    {
+      "id": "v2exact3-09",
+      "arm": "single_v2_exact3",
+      "replicate": 9,
+      "api_seed_base": 4900000,
+      "path": "single-v2-exact3/seed-09"
+    }
+  ],
+  "exact_updates": true,
+  "matched_to": "Each team agent returns complete programs for its three robots in every answer (possibly unchanged); this agent returns complete programs for exactly three robots of its choice (possibly unchanged). Everything else as in multiseed-ninecars-single-v2-one-update-20261016. Answers with another number of robots are schema failures (re-asked, not counted).",
+  "supersedes": "multiseed-ninecars-single-v2-three-updates-20261016 (one to three robots; stopped after 5 answers)"
+}

@@ -1,0 +1,94 @@
+{
+  "workspace": ".",
+  "model": "openai/gpt-oss-120b",
+  "provider": "groq",
+  "reasoning_effort": "medium",
+  "temperature": 0.6,
+  "top_p": 0.95,
+  "timeout": 3600.0,
+  "retry_seed_policy": "resample",
+  "target_F": 156.0,
+  "format_attempts": 3,
+  "transport_attempts": 20,
+  "initial_F": 1479.0,
+  "version": 1,
+  "team_H": 3,
+  "round_budget": 30,
+  "patience_rounds": 5,
+  "created_utc": "2026-10-16T20:06:28Z",
+  "profile": "map2-team-v2-no-correction-p5",
+  "cross_block_correction": false,
+  "description": "Correction ablation of the team v2 campaign: same protocol, prompt presentation, model, settings and seeds, but no known external pairs, no peer timelines and no global collision feedback reach any agent (protocol flag --no-correction). The coordinator still checks the full loss and installs the best improving block.",
+  "trials": [
+    {
+      "id": "m2nocorr-00",
+      "replicate": 0,
+      "api_seed_base": 4000000,
+      "path": "team-v2-no-correction/seed-00"
+    },
+    {
+      "id": "m2nocorr-01",
+      "replicate": 1,
+      "api_seed_base": 4100000,
+      "path": "team-v2-no-correction/seed-01"
+    },
+    {
+      "id": "m2nocorr-02",
+      "replicate": 2,
+      "api_seed_base": 4200000,
+      "path": "team-v2-no-correction/seed-02"
+    },
+    {
+      "id": "m2nocorr-03",
+      "replicate": 3,
+      "api_seed_base": 4300000,
+      "path": "team-v2-no-correction/seed-03"
+    },
+    {
+      "id": "m2nocorr-04",
+      "replicate": 4,
+      "api_seed_base": 4400000,
+      "path": "team-v2-no-correction/seed-04"
+    },
+    {
+      "id": "m2nocorr-05",
+      "replicate": 5,
+      "api_seed_base": 4500000,
+      "path": "team-v2-no-correction/seed-05"
+    },
+    {
+      "id": "m2nocorr-06",
+      "replicate": 6,
+      "api_seed_base": 4600000,
+      "path": "team-v2-no-correction/seed-06"
+    },
+    {
+      "id": "m2nocorr-07",
+      "replicate": 7,
+      "api_seed_base": 4700000,
+      "path": "team-v2-no-correction/seed-07"
+    },
+    {
+      "id": "m2nocorr-08",
+      "replicate": 8,
+      "api_seed_base": 4800000,
+      "path": "team-v2-no-correction/seed-08"
+    },
+    {
+      "id": "m2nocorr-09",
+      "replicate": 9,
+      "api_seed_base": 4900000,
+      "path": "team-v2-no-correction/seed-09"
+    }
+  ],
+  "map": "map 2",
+  "map_file_sha256": "11703078740cad58f12a0c761cc52b90f3b0674034e94757c2a2019641975766",
+  "certified_global_minimum": 147.0,
+  "map_note": "Map 2: different walls (4-cell horizontal, 4-cell vertical, two 2-cell pieces) and robot pattern; optimum 147 certified by CBS at the shortest-path lower bound. Same code, prompts, model and settings as the map-1 campaign multiseed-ninecars-team-v2-no-correction-20261016; target is the optimum plus 9.",
+  "patience_extension": {
+    "source": "map2-team-v2-no-correction-20261016",
+    "original_patience_rounds": 2,
+    "new_patience_rounds": 5,
+    "note": "Runs that reached the target are copied unchanged; runs stopped after 2 rounds without improvement are continued from their saved state until 5 rounds without improvement (cap 30), which is what a patience-5 run does. Code, settings and seeds are unchanged."
+  }
+}

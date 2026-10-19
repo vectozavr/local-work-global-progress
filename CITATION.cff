@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper."
+title: "Local Work, Global Progress: A Convergence Theory of AI Agent Collaboration"
+authors:
+  - family-names: Ilin
+    given-names: Ivan
+    affiliation: KAUST
+  - family-names: Richtárik
+    given-names: Peter
+    affiliation: KAUST
+repository-code: "https://github.com/vectozavr/local-work-global-progress"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Local Work, Global Progress: A Convergence Theory of AI Agent Collaboration"
+  authors:
+    - family-names: Ilin
+      given-names: Ivan
+    - family-names: Richtárik
+      given-names: Peter
+  year: 2026
+  journal: "arXiv preprint arXiv:XXXX.XXXXX"

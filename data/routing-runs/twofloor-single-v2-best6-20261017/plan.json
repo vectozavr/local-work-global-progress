@@ -1,0 +1,117 @@
+{
+  "workspace": ".",
+  "model": "openai/gpt-oss-120b",
+  "provider": "groq",
+  "reasoning_effort": "medium",
+  "temperature": 0.6,
+  "top_p": 0.95,
+  "timeout": 3600.0,
+  "hard_deadline": null,
+  "api_seed": true,
+  "retry_seed_policy": "resample",
+  "target_F": [
+    153.0,
+    156.0
+  ],
+  "format_attempts": 3,
+  "transport_attempts": 20,
+  "initial_F": 2955.0,
+  "certified_global_minimum": 291.0,
+  "floor_optima": [
+    144.0,
+    147.0
+  ],
+  "map_file_sha256": "b615866a2dca0887f4d69b06fbeccb354730b413e51ffdb27fdf33b54d396537",
+  "token_policy": "No max_tokens, max_completion_tokens or reasoning token cap is sent.",
+  "created_utc": "2026-10-16T21:54:26Z",
+  "version": 1,
+  "profile": "twofloor-single-v2-best6-20261017",
+  "protocol_script": "protocol_openrouter_two_floor.py",
+  "arm": "twofloor_single_v2_best6",
+  "prompt_version": "two-floor-single-v2-k1-best6",
+  "width": 6,
+  "max_updated_robots": 1,
+  "round_budget": 80,
+  "patience_rounds": 5,
+  "replicates": 10,
+  "cars": 18,
+  "floors": [
+    "first map (multiseed-ninecars campaigns), robots r0-r8",
+    "second map (map2 campaigns), robots renamed s0-s8"
+  ],
+  "description": "Parallel best of six one-route single agents on two floors with the v2 prompt: every round, six copies receive the same prompt (both floors in full, accepted changes, attempts rejected on the installed plan) with their own seeds; each replaces one route on either floor; the best strictly improving answer is installed and the others are discarded; if none improves, all six enter the rejected-attempt log. Round time is the slowest of the six answers.",
+  "stopping": "5 rounds without improvement (30 answers), both floors safe with F1<=153 and F2<=156, or 80 rounds",
+  "seed_design": "copy c in round r uses api seed base + 1000 r + c; base = 4000000 + 100000 * replicate",
+  "trials": [
+    {
+      "arm": "twofloor_single_v2_best6",
+      "id": "tf1best6-00",
+      "replicate": 0,
+      "api_seed_base": 4000000,
+      "path": "single-v2-best6/seed-00"
+    },
+    {
+      "arm": "twofloor_single_v2_best6",
+      "id": "tf1best6-01",
+      "replicate": 1,
+      "api_seed_base": 4100000,
+      "path": "single-v2-best6/seed-01"
+    },
+    {
+      "arm": "twofloor_single_v2_best6",
+      "id": "tf1best6-02",
+      "replicate": 2,
+      "api_seed_base": 4200000,
+      "path": "single-v2-best6/seed-02"
+    },
+    {
+      "arm": "twofloor_single_v2_best6",
+      "id": "tf1best6-03",
+      "replicate": 3,
+      "api_seed_base": 4300000,
+      "path": "single-v2-best6/seed-03"
+    },
+    {
+      "arm": "twofloor_single_v2_best6",
+      "id": "tf1best6-04",
+      "replicate": 4,
+      "api_seed_base": 4400000,
+      "path": "single-v2-best6/seed-04"
+    },
+    {
+      "arm": "twofloor_single_v2_best6",
+      "id": "tf1best6-05",
+      "replicate": 5,
+      "api_seed_base": 4500000,
+      "path": "single-v2-best6/seed-05"
+    },
+    {
+      "arm": "twofloor_single_v2_best6",
+      "id": "tf1best6-06",
+      "replicate": 6,
+      "api_seed_base": 4600000,
+      "path": "single-v2-best6/seed-06"
+    },
+    {
+      "arm": "twofloor_single_v2_best6",
+      "id": "tf1best6-07",
+      "replicate": 7,
+      "api_seed_base": 4700000,
+      "path": "single-v2-best6/seed-07"
+    },
+    {
+      "arm": "twofloor_single_v2_best6",
+      "id": "tf1best6-08",
+      "replicate": 8,
+      "api_seed_base": 4800000,
+      "path": "single-v2-best6/seed-08"
+    },
+    {
+      "arm": "twofloor_single_v2_best6",
+      "id": "tf1best6-09",
+      "replicate": 9,
+      "api_seed_base": 4900000,
+      "path": "single-v2-best6/seed-09"
+    }
+  ]
+}

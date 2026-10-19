@@ -1,0 +1,3264 @@
+{
+  "domain": "free",
+  "prompt_version": "team-v2",
+  "scheduler": "independent-private-searches-v1-team-prompt-v2",
+  "mode": "learned",
+  "solver": "http",
+  "seed": 5200000,
+  "H": 3,
+  "epochs": 3,
+  "epoch_budget": 30,
+  "F": 151.0,
+  "F_star": null,
+  "assumption3": "Not certified for arbitrary command arrays.",
+  "spec_sha256": "2f44ceb75b20527a36185d5c5467ef3379f73ffc86b25191fb691362559e9394",
+  "delivered": 9,
+  "collisions": 0,
+  "first_success_seconds": 159.94298315048218,
+  "target_F": 156.0,
+  "first_target_seconds": 159.94298315048218,
+  "reached_target": true,
+  "wall_seconds": 159.95781707763672,
+  "final_programs": {
+    "r0": [
+      "down",
+      "down",
+      "down",
+      "down",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "down",
+      "down",
+      "down",
+      "down",
+      "down",
+      "down",
+      "down",
+      "right",
+      "right",
+      "right"
+    ],
+    "r1": [
+      "wait",
+      "wait",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "down",
+      "right",
+      "right"
+    ],
+    "r2": [
+      "down",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right"
+    ],
+    "r3": [
+      "left",
+      "left",
+      "down",
+      "down",
+      "down",
+      "down",
+      "down",
+      "down",
+      "down",
+      "down",
+      "down",
+      "down",
+      "down",
+      "right"
+    ],
+    "r4": [
+      "down",
+      "down",
+      "down",
+      "down",
+      "left",
+      "left",
+      "left",
+      "down",
+      "down",
+      "down",
+      "down",
+      "down",
+      "down",
+      "down",
+      "down"
+    ],
+    "r5": [
+      "left",
+      "left",
+      "left",
+      "down",
+      "down",
+      "down",
+      "down",
+      "down",
+      "down",
+      "down",
+      "down",
+      "left",
+      "left",
+      "left",
+      "down",
+      "down",
+      "down",
+      "down",
+      "down"
+    ],
+    "r6": [
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "up",
+      "up",
+      "up",
+      "up",
+      "up",
+      "up",
+      "up",
+      "up",
+      "up",
+      "up",
+      "up"
+    ],
+    "r7": [
+      "right",
+      "up",
+      "up",
+      "up",
+      "right",
+      "up",
+      "up",
+      "up",
+      "up",
+      "left",
+      "up",
+      "up",
+      "up",
+      "up",
+      "up"
+    ],
+    "r8": [
+      "left",
+      "left",
+      "left",
+      "up",
+      "up",
+      "up",
+      "right",
+      "up",
+      "up",
+      "up",
+      "up",
+      "left",
+      "up",
+      "left",
+      "left",
+      "up",
+      "up",
+      "up",
+      "up",
+      "up"
+    ]
+  },
+  "history": [
+    {
+      "epoch": 0,
+      "base": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "proposals": [
+        [
+          [
+            "down",
+            "down",
+            "down",
+            "down",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "right",
+            "right",
+            "right"
+          ],
+          [
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "down",
+            "right",
+            "right"
+          ],
+          [
+            "down",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right"
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        [
+          [],
+          [],
+          [],
+          [
+            "left",
+            "down",
+            "down",
+            "down",
+            "down",
+            "left",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "right"
+          ],
+          [
+            "down",
+            "down",
+            "down",
+            "down",
+            "left",
+            "left",
+            "left",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down"
+          ],
+          [
+            "left",
+            "left",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "left",
+            "left",
+            "left",
+            "left"
+          ],
+          [],
+          [],
+          []
+        ],
+        [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up"
+          ],
+          [
+            "right",
+            "up",
+            "up",
+            "up",
+            "right",
+            "up",
+            "up",
+            "up",
+            "up",
+            "left",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up"
+          ],
+          [
+            "left",
+            "left",
+            "left",
+            "up",
+            "up",
+            "up",
+            "right",
+            "up",
+            "up",
+            "up",
+            "up",
+            "left",
+            "up",
+            "left",
+            "left",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up"
+          ]
+        ]
+      ],
+      "next": [
+        [
+          "down",
+          "down",
+          "down",
+          "down",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "right",
+          "right",
+          "right"
+        ],
+        [
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "down",
+          "right",
+          "right"
+        ],
+        [
+          "down",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right"
+        ],
+        [
+          "left",
+          "down",
+          "down",
+          "down",
+          "down",
+          "left",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "right"
+        ],
+        [
+          "down",
+          "down",
+          "down",
+          "down",
+          "left",
+          "left",
+          "left",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down"
+        ],
+        [
+          "left",
+          "left",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "left",
+          "left",
+          "left",
+          "left"
+        ],
+        [
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up"
+        ],
+        [
+          "right",
+          "up",
+          "up",
+          "up",
+          "right",
+          "up",
+          "up",
+          "up",
+          "up",
+          "left",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up"
+        ],
+        [
+          "left",
+          "left",
+          "left",
+          "up",
+          "up",
+          "up",
+          "right",
+          "up",
+          "up",
+          "up",
+          "up",
+          "left",
+          "up",
+          "left",
+          "left",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up"
+        ]
+      ],
+      "F": 649.0,
+      "accepted": [
+        0,
+        1,
+        2
+      ],
+      "merge": "best_subset",
+      "improved": true,
+      "best_F": 649.0,
+      "combinations": [
+        {
+          "blocks": [
+            0
+          ],
+          "F": 1035.0,
+          "collisions": 0
+        },
+        {
+          "blocks": [
+            1
+          ],
+          "F": 1235.0,
+          "collisions": 2
+        },
+        {
+          "blocks": [
+            2
+          ],
+          "F": 1037.0,
+          "collisions": 0
+        },
+        {
+          "blocks": [
+            0,
+            1
+          ],
+          "F": 891.0,
+          "collisions": 3
+        },
+        {
+          "blocks": [
+            0,
+            2
+          ],
+          "F": 693.0,
+          "collisions": 1
+        },
+        {
+          "blocks": [
+            1,
+            2
+          ],
+          "F": 893.0,
+          "collisions": 3
+        },
+        {
+          "blocks": [
+            0,
+            1,
+            2
+          ],
+          "F": 649.0,
+          "collisions": 5
+        }
+      ],
+      "delivered": 9,
+      "collisions": 5,
+      "known_before": [],
+      "known_after": [
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          8
+        ]
+      ],
+      "seconds": 51.52338194847107,
+      "verified_F": [
+        1035.0,
+        1235.0,
+        1037.0
+      ],
+      "proposal_events": [
+        [],
+        [
+          {
+            "pair": [
+              3,
+              6
+            ],
+            "time": 13,
+            "kind": "vertex",
+            "cell": [
+              4,
+              13
+            ]
+          },
+          {
+            "pair": [
+              5,
+              7
+            ],
+            "time": 17,
+            "kind": "vertex",
+            "cell": [
+              8,
+              14
+            ]
+          }
+        ],
+        []
+      ],
+      "gains": [
+        444.0,
+        244.0,
+        442.0
+      ],
+      "local_attempts": [
+        2,
+        2,
+        3
+      ],
+      "local_stop_reasons": [
+        "certified_local_minimum",
+        "certified_local_minimum",
+        "budget_exhausted"
+      ],
+      "stopping_certificates": [
+        {
+          "kind": "exact_joint_minimum_CBS_with_penalty_bounds",
+          "lower_bound": 49.0,
+          "states_expanded": 1
+        },
+        {
+          "kind": "exact_joint_minimum_CBS_with_penalty_bounds",
+          "lower_bound": 48.0,
+          "states_expanded": 1
+        },
+        {
+          "kind": "exact_joint_minimum_CBS_with_penalty_bounds",
+          "lower_bound": 50.0,
+          "states_expanded": 2
+        }
+      ],
+      "timing": {
+        "agent_wall_seconds": [
+          20.75049662590027,
+          19.712219953536987,
+          51.47516870498657
+        ],
+        "agent_api_seconds": [
+          20.711504874999996,
+          19.659164208,
+          51.40441533400001
+        ],
+        "slowest_agent_seconds": 51.47516870498657,
+        "parallel_search_seconds": 51.481579065322876,
+        "round_wall_seconds": 51.52338194847107,
+        "verification_seconds": 0.0066702499999991005,
+        "stopping_check_seconds": 0.03437399999999999
+      }
+    },
+    {
+      "epoch": 1,
+      "base": [
+        [
+          "down",
+          "down",
+          "down",
+          "down",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "right",
+          "right",
+          "right"
+        ],
+        [
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "down",
+          "right",
+          "right"
+        ],
+        [
+          "down",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right"
+        ],
+        [
+          "left",
+          "down",
+          "down",
+          "down",
+          "down",
+          "left",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "right"
+        ],
+        [
+          "down",
+          "down",
+          "down",
+          "down",
+          "left",
+          "left",
+          "left",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down"
+        ],
+        [
+          "left",
+          "left",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "left",
+          "left",
+          "left",
+          "left"
+        ],
+        [
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up"
+        ],
+        [
+          "right",
+          "up",
+          "up",
+          "up",
+          "right",
+          "up",
+          "up",
+          "up",
+          "up",
+          "left",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up"
+        ],
+        [
+          "left",
+          "left",
+          "left",
+          "up",
+          "up",
+          "up",
+          "right",
+          "up",
+          "up",
+          "up",
+          "up",
+          "left",
+          "up",
+          "left",
+          "left",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up"
+        ]
+      ],
+      "proposals": [
+        [
+          [
+            "down",
+            "down",
+            "down",
+            "down",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "right",
+            "right",
+            "right"
+          ],
+          [
+            "wait",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "down",
+            "right",
+            "right"
+          ],
+          [
+            "wait",
+            "down",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right"
+          ],
+          [
+            "left",
+            "down",
+            "down",
+            "down",
+            "down",
+            "left",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "right"
+          ],
+          [
+            "down",
+            "down",
+            "down",
+            "down",
+            "left",
+            "left",
+            "left",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down"
+          ],
+          [
+            "left",
+            "left",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "left",
+            "left",
+            "left",
+            "left"
+          ],
+          [
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up"
+          ],
+          [
+            "right",
+            "up",
+            "up",
+            "up",
+            "right",
+            "up",
+            "up",
+            "up",
+            "up",
+            "left",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up"
+          ],
+          [
+            "left",
+            "left",
+            "left",
+            "up",
+            "up",
+            "up",
+            "right",
+            "up",
+            "up",
+            "up",
+            "up",
+            "left",
+            "up",
+            "left",
+            "left",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up"
+          ]
+        ],
+        [
+          [
+            "down",
+            "down",
+            "down",
+            "down",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "right",
+            "right",
+            "right"
+          ],
+          [
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "down",
+            "right",
+            "right"
+          ],
+          [
+            "down",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right"
+          ],
+          [
+            "left",
+            "left",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "right"
+          ],
+          [
+            "down",
+            "down",
+            "down",
+            "down",
+            "left",
+            "left",
+            "left",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down"
+          ],
+          [
+            "right",
+            "wait",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "left",
+            "left",
+            "left",
+            "left",
+            "left",
+            "left",
+            "left"
+          ],
+          [
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up"
+          ],
+          [
+            "right",
+            "up",
+            "up",
+            "up",
+            "right",
+            "up",
+            "up",
+            "up",
+            "up",
+            "left",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up"
+          ],
+          [
+            "left",
+            "left",
+            "left",
+            "up",
+            "up",
+            "up",
+            "right",
+            "up",
+            "up",
+            "up",
+            "up",
+            "left",
+            "up",
+            "left",
+            "left",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up"
+          ]
+        ],
+        [
+          [
+            "down",
+            "down",
+            "down",
+            "down",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "right",
+            "right",
+            "right"
+          ],
+          [
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "down",
+            "right",
+            "right"
+          ],
+          [
+            "down",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right"
+          ],
+          [
+            "left",
+            "down",
+            "down",
+            "down",
+            "down",
+            "left",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "right"
+          ],
+          [
+            "down",
+            "down",
+            "down",
+            "down",
+            "left",
+            "left",
+            "left",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down"
+          ],
+          [
+            "left",
+            "left",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "left",
+            "left",
+            "left",
+            "left"
+          ],
+          [
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up"
+          ],
+          [
+            "right",
+            "up",
+            "up",
+            "up",
+            "right",
+            "up",
+            "up",
+            "up",
+            "up",
+            "left",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up"
+          ],
+          [
+            "left",
+            "left",
+            "left",
+            "up",
+            "up",
+            "up",
+            "right",
+            "up",
+            "up",
+            "up",
+            "up",
+            "left",
+            "up",
+            "left",
+            "left",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up"
+          ]
+        ]
+      ],
+      "next": [
+        [
+          "down",
+          "down",
+          "down",
+          "down",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "right",
+          "right",
+          "right"
+        ],
+        [
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "down",
+          "right",
+          "right"
+        ],
+        [
+          "down",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right"
+        ],
+        [
+          "left",
+          "left",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "right"
+        ],
+        [
+          "down",
+          "down",
+          "down",
+          "down",
+          "left",
+          "left",
+          "left",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down"
+        ],
+        [
+          "right",
+          "wait",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "left",
+          "left",
+          "left",
+          "left",
+          "left",
+          "left",
+          "left"
+        ],
+        [
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up"
+        ],
+        [
+          "right",
+          "up",
+          "up",
+          "up",
+          "right",
+          "up",
+          "up",
+          "up",
+          "up",
+          "left",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up"
+        ],
+        [
+          "left",
+          "left",
+          "left",
+          "up",
+          "up",
+          "up",
+          "right",
+          "up",
+          "up",
+          "up",
+          "up",
+          "left",
+          "up",
+          "left",
+          "left",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up"
+        ]
+      ],
+      "F": 252.0,
+      "accepted": [
+        1
+      ],
+      "merge": "best_subset",
+      "improved": true,
+      "best_F": 252.0,
+      "combinations": [
+        {
+          "blocks": [
+            0
+          ],
+          "F": 851.0,
+          "collisions": 7
+        },
+        {
+          "blocks": [
+            1
+          ],
+          "F": 252.0,
+          "collisions": 1
+        },
+        {
+          "blocks": [
+            0,
+            1
+          ],
+          "F": 454.0,
+          "collisions": 3
+        }
+      ],
+      "delivered": 9,
+      "collisions": 1,
+      "known_before": [
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          8
+        ]
+      ],
+      "known_after": [
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          8
+        ]
+      ],
+      "seconds": 114.44367504119873,
+      "verified_F": [
+        851.0,
+        252.0,
+        649.0
+      ],
+      "proposal_events": [
+        [
+          {
+            "pair": [
+              1,
+              4
+            ],
+            "time": 11,
+            "kind": "vertex",
+            "cell": [
+              11,
+              9
+            ]
+          },
+          {
+            "pair": [
+              1,
+              4
+            ],
+            "time": 12,
+            "kind": "vertex",
+            "cell": [
+              11,
+              10
+            ]
+          },
+          {
+            "pair": [
+              1,
+              5
+            ],
+            "time": 10,
+            "kind": "vertex",
+            "cell": [
+              10,
+              9
+            ]
+          },
+          {
+            "pair": [
+              1,
+              6
+            ],
+            "time": 10,
+            "kind": "vertex",
+            "cell": [
+              10,
+              9
+            ]
+          },
+          {
+            "pair": [
+              5,
+              6
+            ],
+            "time": 10,
+            "kind": "vertex",
+            "cell": [
+              10,
+              9
+            ]
+          },
+          {
+            "pair": [
+              5,
+              7
+            ],
+            "time": 9,
+            "kind": "edge",
+            "edge": [
+              [
+                10,
+                7
+              ],
+              [
+                10,
+                8
+              ]
+            ]
+          },
+          {
+            "pair": [
+              5,
+              8
+            ],
+            "time": 10,
+            "kind": "edge",
+            "edge": [
+              [
+                10,
+                8
+              ],
+              [
+                10,
+                9
+              ]
+            ]
+          }
+        ],
+        [
+          {
+            "pair": [
+              1,
+              8
+            ],
+            "time": 9,
+            "kind": "vertex",
+            "cell": [
+              10,
+              9
+            ]
+          }
+        ],
+        [
+          {
+            "pair": [
+              1,
+              8
+            ],
+            "time": 9,
+            "kind": "vertex",
+            "cell": [
+              10,
+              9
+            ]
+          },
+          {
+            "pair": [
+              2,
+              3
+            ],
+            "time": 4,
+            "kind": "vertex",
+            "cell": [
+              5,
+              5
+            ]
+          },
+          {
+            "pair": [
+              5,
+              6
+            ],
+            "time": 10,
+            "kind": "vertex",
+            "cell": [
+              10,
+              9
+            ]
+          },
+          {
+            "pair": [
+              5,
+              7
+            ],
+            "time": 9,
+            "kind": "edge",
+            "edge": [
+              [
+                10,
+                7
+              ],
+              [
+                10,
+                8
+              ]
+            ]
+          },
+          {
+            "pair": [
+              5,
+              8
+            ],
+            "time": 10,
+            "kind": "edge",
+            "edge": [
+              [
+                10,
+                8
+              ],
+              [
+                10,
+                9
+              ]
+            ]
+          }
+        ]
+      ],
+      "gains": [
+        0,
+        397.0,
+        0
+      ],
+      "local_attempts": [
+        2,
+        3,
+        3
+      ],
+      "local_stop_reasons": [
+        "certified_local_minimum",
+        "budget_exhausted",
+        "budget_exhausted"
+      ],
+      "stopping_certificates": [
+        {
+          "kind": "exact_joint_minimum_CBS_with_penalty_bounds",
+          "lower_bound": 51.0,
+          "states_expanded": 1
+        },
+        {
+          "kind": "exact_joint_minimum_CBS_with_penalty_bounds",
+          "lower_bound": 48.0,
+          "states_expanded": 1
+        },
+        {
+          "kind": "exact_joint_minimum_CBS_with_penalty_bounds",
+          "lower_bound": 50.0,
+          "states_expanded": 2
+        }
+      ],
+      "timing": {
+        "agent_wall_seconds": [
+          17.769381999969482,
+          60.58054232597351,
+          62.867674827575684
+        ],
+        "agent_api_seconds": [
+          17.716982041999998,
+          60.483005459,
+          62.758386416
+        ],
+        "slowest_agent_seconds": 62.867674827575684,
+        "parallel_search_seconds": 62.8760130405426,
+        "round_wall_seconds": 62.92029309272766,
+        "verification_seconds": 0.0033008749999936526,
+        "stopping_check_seconds": 0.03860241699999989
+      }
+    },
+    {
+      "epoch": 2,
+      "base": [
+        [
+          "down",
+          "down",
+          "down",
+          "down",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "right",
+          "right",
+          "right"
+        ],
+        [
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "down",
+          "right",
+          "right"
+        ],
+        [
+          "down",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right"
+        ],
+        [
+          "left",
+          "left",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "right"
+        ],
+        [
+          "down",
+          "down",
+          "down",
+          "down",
+          "left",
+          "left",
+          "left",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down"
+        ],
+        [
+          "right",
+          "wait",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "left",
+          "left",
+          "left",
+          "left",
+          "left",
+          "left",
+          "left"
+        ],
+        [
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up"
+        ],
+        [
+          "right",
+          "up",
+          "up",
+          "up",
+          "right",
+          "up",
+          "up",
+          "up",
+          "up",
+          "left",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up"
+        ],
+        [
+          "left",
+          "left",
+          "left",
+          "up",
+          "up",
+          "up",
+          "right",
+          "up",
+          "up",
+          "up",
+          "up",
+          "left",
+          "up",
+          "left",
+          "left",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up"
+        ]
+      ],
+      "proposals": [
+        [
+          [
+            "down",
+            "down",
+            "down",
+            "down",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "right",
+            "right",
+            "right"
+          ],
+          [
+            "wait",
+            "wait",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "down",
+            "right",
+            "right"
+          ],
+          [
+            "down",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right"
+          ],
+          [
+            "left",
+            "left",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "right"
+          ],
+          [
+            "down",
+            "down",
+            "down",
+            "down",
+            "left",
+            "left",
+            "left",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down"
+          ],
+          [
+            "right",
+            "wait",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "left",
+            "left",
+            "left",
+            "left",
+            "left",
+            "left",
+            "left"
+          ],
+          [
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up"
+          ],
+          [
+            "right",
+            "up",
+            "up",
+            "up",
+            "right",
+            "up",
+            "up",
+            "up",
+            "up",
+            "left",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up"
+          ],
+          [
+            "left",
+            "left",
+            "left",
+            "up",
+            "up",
+            "up",
+            "right",
+            "up",
+            "up",
+            "up",
+            "up",
+            "left",
+            "up",
+            "left",
+            "left",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up"
+          ]
+        ],
+        [
+          [
+            "down",
+            "down",
+            "down",
+            "down",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "right",
+            "right",
+            "right"
+          ],
+          [
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "down",
+            "right",
+            "right"
+          ],
+          [
+            "down",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right"
+          ],
+          [
+            "left",
+            "left",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "right"
+          ],
+          [
+            "down",
+            "down",
+            "down",
+            "down",
+            "left",
+            "left",
+            "left",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down"
+          ],
+          [
+            "left",
+            "left",
+            "left",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "left",
+            "left",
+            "left",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down"
+          ],
+          [
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up"
+          ],
+          [
+            "right",
+            "up",
+            "up",
+            "up",
+            "right",
+            "up",
+            "up",
+            "up",
+            "up",
+            "left",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up"
+          ],
+          [
+            "left",
+            "left",
+            "left",
+            "up",
+            "up",
+            "up",
+            "right",
+            "up",
+            "up",
+            "up",
+            "up",
+            "left",
+            "up",
+            "left",
+            "left",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up"
+          ]
+        ],
+        [
+          [
+            "down",
+            "down",
+            "down",
+            "down",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "right",
+            "right",
+            "right"
+          ],
+          [
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "down",
+            "right",
+            "right"
+          ],
+          [
+            "down",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right"
+          ],
+          [
+            "left",
+            "left",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "right"
+          ],
+          [
+            "down",
+            "down",
+            "down",
+            "down",
+            "left",
+            "left",
+            "left",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down"
+          ],
+          [
+            "right",
+            "wait",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "left",
+            "left",
+            "left",
+            "left",
+            "left",
+            "left",
+            "left"
+          ],
+          [
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "right",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up"
+          ],
+          [
+            "right",
+            "up",
+            "up",
+            "up",
+            "right",
+            "up",
+            "up",
+            "up",
+            "up",
+            "left",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up"
+          ],
+          [
+            "left",
+            "left",
+            "left",
+            "left",
+            "left",
+            "left",
+            "left",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up",
+            "left",
+            "up",
+            "up",
+            "right",
+            "right",
+            "right",
+            "up",
+            "up",
+            "up",
+            "up",
+            "up"
+          ]
+        ]
+      ],
+      "next": [
+        [
+          "down",
+          "down",
+          "down",
+          "down",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "right",
+          "right",
+          "right"
+        ],
+        [
+          "wait",
+          "wait",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "down",
+          "right",
+          "right"
+        ],
+        [
+          "down",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right"
+        ],
+        [
+          "left",
+          "left",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "right"
+        ],
+        [
+          "down",
+          "down",
+          "down",
+          "down",
+          "left",
+          "left",
+          "left",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down"
+        ],
+        [
+          "left",
+          "left",
+          "left",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down",
+          "left",
+          "left",
+          "left",
+          "down",
+          "down",
+          "down",
+          "down",
+          "down"
+        ],
+        [
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "right",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up"
+        ],
+        [
+          "right",
+          "up",
+          "up",
+          "up",
+          "right",
+          "up",
+          "up",
+          "up",
+          "up",
+          "left",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up"
+        ],
+        [
+          "left",
+          "left",
+          "left",
+          "up",
+          "up",
+          "up",
+          "right",
+          "up",
+          "up",
+          "up",
+          "up",
+          "left",
+          "up",
+          "left",
+          "left",
+          "up",
+          "up",
+          "up",
+          "up",
+          "up"
+        ]
+      ],
+      "F": 151.0,
+      "accepted": [
+        0,
+        1
+      ],
+      "merge": "best_subset",
+      "improved": true,
+      "best_F": 151.0,
+      "combinations": [
+        {
+          "blocks": [
+            0
+          ],
+          "F": 154.0,
+          "collisions": 0
+        },
+        {
+          "blocks": [
+            1
+          ],
+          "F": 249.0,
+          "collisions": 1
+        },
+        {
+          "blocks": [
+            2
+          ],
+          "F": 156.0,
+          "collisions": 0
+        },
+        {
+          "blocks": [
+            0,
+            1
+          ],
+          "F": 151.0,
+          "collisions": 0
+        },
+        {
+          "blocks": [
+            0,
+            2
+          ],
+          "F": 158.0,
+          "collisions": 0
+        },
+        {
+          "blocks": [
+            1,
+            2
+          ],
+          "F": 153.0,
+          "collisions": 0
+        },
+        {
+          "blocks": [
+            0,
+            1,
+            2
+          ],
+          "F": 155.0,
+          "collisions": 0
+        }
+      ],
+      "delivered": 9,
+      "collisions": 0,
+      "known_before": [
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          8
+        ]
+      ],
+      "known_after": [
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          8
+        ]
+      ],
+      "seconds": 159.94298315048218,
+      "verified_F": [
+        154.0,
+        249.0,
+        156.0
+      ],
+      "proposal_events": [
+        [],
+        [
+          {
+            "pair": [
+              1,
+              8
+            ],
+            "time": 9,
+            "kind": "vertex",
+            "cell": [
+              10,
+              9
+            ]
+          }
+        ],
+        []
+      ],
+      "gains": [
+        98.0,
+        3.0,
+        96.0
+      ],
+      "local_attempts": [
+        1,
+        2,
+        3
+      ],
+      "local_stop_reasons": [
+        "certified_local_minimum",
+        "certified_local_minimum",
+        "budget_exhausted"
+      ],
+      "stopping_certificates": [
+        {
+          "kind": "exact_joint_minimum_CBS_with_penalty_bounds",
+          "lower_bound": 51.0,
+          "states_expanded": 1
+        },
+        {
+          "kind": "exact_joint_minimum_CBS_with_penalty_bounds",
+          "lower_bound": 48.0,
+          "states_expanded": 1
+        },
+        {
+          "kind": "exact_joint_minimum_CBS_with_penalty_bounds",
+          "lower_bound": 50.0,
+          "states_expanded": 2
+        }
+      ],
+      "timing": {
+        "agent_wall_seconds": [
+          15.893490314483643,
+          32.86648774147034,
+          45.449217081069946
+        ],
+        "agent_api_seconds": [
+          15.831508792000008,
+          32.734057667,
+          45.272201416
+        ],
+        "slowest_agent_seconds": 45.449217081069946,
+        "parallel_search_seconds": 45.45815587043762,
+        "round_wall_seconds": 45.49930810928345,
+        "verification_seconds": 0.004354459000012412,
+        "stopping_check_seconds": 0.034187625000001276
+      }
+    }
+  ],
+  "merge": "best_subset",
+  "last_installed_F": 151.0,
+  "last_installed_programs": {
+    "r0": [
+      "down",
+      "down",
+      "down",
+      "down",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "down",
+      "down",
+      "down",
+      "down",
+      "down",
+      "down",
+      "down",
+      "right",
+      "right",
+      "right"
+    ],
+    "r1": [
+      "wait",
+      "wait",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "down",
+      "right",
+      "right"
+    ],
+    "r2": [
+      "down",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right"
+    ],
+    "r3": [
+      "left",
+      "left",
+      "down",
+      "down",
+      "down",
+      "down",
+      "down",
+      "down",
+      "down",
+      "down",
+      "down",
+      "down",
+      "down",
+      "right"
+    ],
+    "r4": [
+      "down",
+      "down",
+      "down",
+      "down",
+      "left",
+      "left",
+      "left",
+      "down",
+      "down",
+      "down",
+      "down",
+      "down",
+      "down",
+      "down",
+      "down"
+    ],
+    "r5": [
+      "left",
+      "left",
+      "left",
+      "down",
+      "down",
+      "down",
+      "down",
+      "down",
+      "down",
+      "down",
+      "down",
+      "left",
+      "left",
+      "left",
+      "down",
+      "down",
+      "down",
+      "down",
+      "down"
+    ],
+    "r6": [
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "up",
+      "up",
+      "up",
+      "up",
+      "up",
+      "up",
+      "up",
+      "up",
+      "up",
+      "up",
+      "up"
+    ],
+    "r7": [
+      "right",
+      "up",
+      "up",
+      "up",
+      "right",
+      "up",
+      "up",
+      "up",
+      "up",
+      "left",
+      "up",
+      "up",
+      "up",
+      "up",
+      "up"
+    ],
+    "r8": [
+      "left",
+      "left",
+      "left",
+      "up",
+      "up",
+      "up",
+      "right",
+      "up",
+      "up",
+      "up",
+      "up",
+      "left",
+      "up",
+      "left",
+      "left",
+      "up",
+      "up",
+      "up",
+      "up",
+      "up"
+    ]
+  },
+  "model_calls": 21,
+  "solver_calls": 21,
+  "invalid_responses": 6,
+  "input_tokens": 51524,
+  "output_tokens": 147732,
+  "llm_batch_seconds": 159.8157479763031,
+  "parallel_critical_path_seconds": 159.7920606136322,
+  "summed_agent_api_seconds": 326.571226209,
+  "verification_seconds": 0.014325584000005165,
+  "certified_stop": true,
+  "stopping_check_seconds": 0.10716404200000115,
+  "singleton_verifications": 9,
+  "joint_replay_checks": 3,
+  "model": {
+    "backend": "openrouter",
+    "model": "openai/gpt-oss-120b",
+    "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "thinking": true,
+    "provider_only": "groq",
+    "provider_sort": "throughput",
+    "require_parameters": true,
+    "provider_fallbacks": false,
+    "timeout_seconds": 3600.0,
+    "concurrency": 3,
+    "streaming": false,
+    "retry_policy": "At most 20 HTTP attempts per logical call; all failures retained; no invalid-route retries beyond H",
+    "seed_policy": "Sent to API; provider support required",
+    "output_accounting": "Use provider usage; completion tokens include reasoning when reported.",
+    "execution": "Independent concurrent HTTP requests, not a padded local inference batch.",
+    "checkpoint": "OpenRouter model slug; exact HF revision/quantization not certified.",
+    "credential_logging": false,
+    "reasoning_effort": "medium",
+    "token_limit_policy": "No client token cap; token-limit parameters are unsupported",
+    "schema_retry_policy": "Identical prompt and settings; failed schema is not a search step",
+    "retry_seed_policy": "resample",
+    "schema_attempt_cap": 3,
+    "transport_attempt_cap": 20,
+    "timing": "Accepted-schema response latency excludes preceding failed requests; total wall/cost retained",
+    "scheduler": "independent-private-searches-v1-team-prompt-v2"
+  },
+  "run_status": "COMPLETED",
+  "completed_protocol": true,
+  "solved": true,
+  "termination": "target_reached",
+  "no_improvement_patience": 5,
+  "consecutive_nonimproving_rounds": 0,
+  "cost_usd": 0.09456300000000001,
+  "checked_response_cost_usd": 0.09456300000000001,
+  "all_http_reported_cost_usd": 0.09456300000000001,
+  "http_requests": 21,
+  "unknown_charge_requests": 0,
+  "checked_parallel_response_seconds": 159.435003166,
+  "cost_reported_calls": 21,
+  "reasoning_tokens": 143881,
+  "served_providers": [
+    "Groq"
+  ],
+  "process_resumes": 0,
+  "transport_failures": 0
+}

@@ -1,0 +1,146 @@
+{
+  "workspace": ".",
+  "model": "openai/gpt-oss-120b",
+  "provider": "groq",
+  "reasoning_effort": "medium",
+  "temperature": 0.6,
+  "top_p": 0.95,
+  "timeout": 3600.0,
+  "retry_seed_policy": "resample",
+  "format_attempts": 3,
+  "transport_attempts": 20,
+  "team_H": 3,
+  "round_budget": 30,
+  "patience_rounds": 5,
+  "target_F": 156.0,
+  "initial_F": 1479.0,
+  "version": 1,
+  "merge": "best_subset",
+  "created_utc": "2026-10-17T02:40:13Z",
+  "profile": "team-best-combination-map2",
+  "map": 2,
+  "description": "Team, best combination: every round the coordinator checks every combination of the changed block proposals on the full plan and installs the one with the lowest loss (never worse than the best single block, so Theorem 2 still applies). Three agents, three attempts per round, prompt v2 (robot_routing/team_prompt_v2.py); stop after 5 rounds without improvement (cap 30) or at a safe plan with F<=156.",
+  "seed_design": "replicate s uses base 4000000 + 100000 s; round k, step h, block b add 1000k + 100h + b",
+  "trials": [
+    {
+      "id": "tbc2-00",
+      "replicate": 0,
+      "api_seed_base": 4000000,
+      "path": "team-v2/seed-00"
+    },
+    {
+      "id": "tbc2-01",
+      "replicate": 1,
+      "api_seed_base": 4100000,
+      "path": "team-v2/seed-01"
+    },
+    {
+      "id": "tbc2-02",
+      "replicate": 2,
+      "api_seed_base": 4200000,
+      "path": "team-v2/seed-02"
+    },
+    {
+      "id": "tbc2-03",
+      "replicate": 3,
+      "api_seed_base": 4300000,
+      "path": "team-v2/seed-03"
+    },
+    {
+      "id": "tbc2-04",
+      "replicate": 4,
+      "api_seed_base": 4400000,
+      "path": "team-v2/seed-04"
+    },
+    {
+      "id": "tbc2-05",
+      "replicate": 5,
+      "api_seed_base": 4500000,
+      "path": "team-v2/seed-05"
+    },
+    {
+      "id": "tbc2-06",
+      "replicate": 6,
+      "api_seed_base": 4600000,
+      "path": "team-v2/seed-06"
+    },
+    {
+      "id": "tbc2-07",
+      "replicate": 7,
+      "api_seed_base": 4700000,
+      "path": "team-v2/seed-07"
+    },
+    {
+      "id": "tbc2-08",
+      "replicate": 8,
+      "api_seed_base": 4800000,
+      "path": "team-v2/seed-08"
+    },
+    {
+      "id": "tbc2-09",
+      "replicate": 9,
+      "api_seed_base": 4900000,
+      "path": "team-v2/seed-09"
+    },
+    {
+      "id": "tbc2-10",
+      "replicate": 10,
+      "api_seed_base": 5000000,
+      "path": "team-v2/seed-10"
+    },
+    {
+      "id": "tbc2-11",
+      "replicate": 11,
+      "api_seed_base": 5100000,
+      "path": "team-v2/seed-11"
+    },
+    {
+      "id": "tbc2-12",
+      "replicate": 12,
+      "api_seed_base": 5200000,
+      "path": "team-v2/seed-12"
+    },
+    {
+      "id": "tbc2-13",
+      "replicate": 13,
+      "api_seed_base": 5300000,
+      "path": "team-v2/seed-13"
+    },
+    {
+      "id": "tbc2-14",
+      "replicate": 14,
+      "api_seed_base": 5400000,
+      "path": "team-v2/seed-14"
+    },
+    {
+      "id": "tbc2-15",
+      "replicate": 15,
+      "api_seed_base": 5500000,
+      "path": "team-v2/seed-15"
+    },
+    {
+      "id": "tbc2-16",
+      "replicate": 16,
+      "api_seed_base": 5600000,
+      "path": "team-v2/seed-16"
+    },
+    {
+      "id": "tbc2-17",
+      "replicate": 17,
+      "api_seed_base": 5700000,
+      "path": "team-v2/seed-17"
+    },
+    {
+      "id": "tbc2-18",
+      "replicate": 18,
+      "api_seed_base": 5800000,
+      "path": "team-v2/seed-18"
+    },
+    {
+      "id": "tbc2-19",
+      "replicate": 19,
+      "api_seed_base": 5900000,
+      "path": "team-v2/seed-19"
+    }
+  ]
+}

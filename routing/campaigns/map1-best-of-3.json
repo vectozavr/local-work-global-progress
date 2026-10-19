@@ -1,0 +1,29 @@
+{
+  "campaign": "map1-best-of-3",
+  "paper": "Best-of-3, three single agents in parallel (Table 1, Figure 3a)",
+  "map": "map1",
+  "runner": "single",
+  "trial_path": "single-v2-best3/seed-{seed:02d}",
+  "paper_seeds": "0-19",
+  "seed_base": "4000000 + 100000 * seed",
+  "description": "3 agents in parallel (best-of-3), each controlling all nine robots and changing one route per answer; the best improving answer of each round is accepted. Stops at a safe plan with F <= 153, after 5 rounds without improvement, or after 40 rounds.",
+  "stopping": "5 rounds without improvement (15 answers), safe plan with F<=153, or 40 rounds (120 answers)",
+  "settings": {
+    "model": "openai/gpt-oss-120b",
+    "provider": "groq",
+    "reasoning_effort": "medium",
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "timeout": 3600.0,
+    "retry_seed_policy": "resample",
+    "target_F": 153.0,
+    "format_attempts": 3,
+    "transport_attempts": 20,
+    "initial_F": 1476.0,
+    "certified_global_minimum": 144.0,
+    "width": 3,
+    "max_updated_robots": 1,
+    "round_budget": 40,
+    "patience_rounds": 5
+  }
+}

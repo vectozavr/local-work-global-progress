@@ -1,0 +1,94 @@
+{
+  "workspace": ".",
+  "model": "openai/gpt-oss-120b",
+  "provider": "groq",
+  "reasoning_effort": "medium",
+  "temperature": 0.6,
+  "top_p": 0.95,
+  "timeout": 3600.0,
+  "retry_seed_policy": "resample",
+  "target_F": 153.0,
+  "format_attempts": 3,
+  "transport_attempts": 20,
+  "initial_F": 1476.0,
+  "version": 1,
+  "team_H": 3,
+  "round_budget": 30,
+  "patience_rounds": 5,
+  "created_utc": "2026-10-16T20:06:26Z",
+  "profile": "ninecars-team-v2-seeds10-19-p5",
+  "description": "Main team protocol (three agents, three attempts per round, coordinator installs the best block) with the v2 agent prompt (robot_routing/team_prompt_v2.py); stop after 2 rounds without improvement (cap 30) or at a safe plan with F<=153. Same model and settings as the single-agent v2 campaign.",
+  "trials": [
+    {
+      "id": "teamv2-10",
+      "replicate": 10,
+      "api_seed_base": 5000000,
+      "path": "team-v2/seed-10"
+    },
+    {
+      "id": "teamv2-11",
+      "replicate": 11,
+      "api_seed_base": 5100000,
+      "path": "team-v2/seed-11"
+    },
+    {
+      "id": "teamv2-12",
+      "replicate": 12,
+      "api_seed_base": 5200000,
+      "path": "team-v2/seed-12"
+    },
+    {
+      "id": "teamv2-13",
+      "replicate": 13,
+      "api_seed_base": 5300000,
+      "path": "team-v2/seed-13"
+    },
+    {
+      "id": "teamv2-14",
+      "replicate": 14,
+      "api_seed_base": 5400000,
+      "path": "team-v2/seed-14"
+    },
+    {
+      "id": "teamv2-15",
+      "replicate": 15,
+      "api_seed_base": 5500000,
+      "path": "team-v2/seed-15"
+    },
+    {
+      "id": "teamv2-16",
+      "replicate": 16,
+      "api_seed_base": 5600000,
+      "path": "team-v2/seed-16"
+    },
+    {
+      "id": "teamv2-17",
+      "replicate": 17,
+      "api_seed_base": 5700000,
+      "path": "team-v2/seed-17"
+    },
+    {
+      "id": "teamv2-18",
+      "replicate": 18,
+      "api_seed_base": 5800000,
+      "path": "team-v2/seed-18"
+    },
+    {
+      "id": "teamv2-19",
+      "replicate": 19,
+      "api_seed_base": 5900000,
+      "path": "team-v2/seed-19"
+    }
+  ],
+  "extends": {
+    "campaign": "multiseed-ninecars-team-v2-20261016",
+    "note": "Seeds 10-19 with byte-identical source snapshot, instance and settings; pooled with seeds 0-9 in the analysis."
+  },
+  "replicates": 10,
+  "patience_extension": {
+    "source": "multiseed-ninecars-team-v2-seeds10-19-20261016",
+    "original_patience_rounds": 2,
+    "new_patience_rounds": 5,
+    "note": "Runs that reached the target are copied unchanged; runs stopped after 2 rounds without improvement are continued from their saved state until 5 rounds without improvement (cap 30), which is what a patience-5 run does. Code, settings and seeds are unchanged."
+  }
+}

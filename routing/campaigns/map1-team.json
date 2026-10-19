@@ -1,0 +1,26 @@
+{
+  "campaign": "map1-team",
+  "paper": "Team, Algorithm 1 (Table 1, Figures 3-4)",
+  "map": "map1",
+  "runner": "team",
+  "trial_path": "team-v2/seed-{seed:02d}",
+  "paper_seeds": "0-19",
+  "seed_base": "4000000 + 100000 * seed",
+  "description": "Team of three agents, with the correction; each searches its three robots for up to 3 answers per round, and the coordinator accepts the best improving block (Algorithm 1). Stops at a safe plan with F <= 153, after 5 rounds without improvement, or after 30 rounds.",
+  "settings": {
+    "model": "openai/gpt-oss-120b",
+    "provider": "groq",
+    "reasoning_effort": "medium",
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "timeout": 3600.0,
+    "retry_seed_policy": "resample",
+    "target_F": 153.0,
+    "format_attempts": 3,
+    "transport_attempts": 20,
+    "initial_F": 1476.0,
+    "team_H": 3,
+    "round_budget": 30,
+    "patience_rounds": 5
+  }
+}

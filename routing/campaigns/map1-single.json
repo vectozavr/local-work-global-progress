@@ -1,0 +1,29 @@
+{
+  "campaign": "map1-single",
+  "paper": "Single agent (Table 1, Figure 3a)",
+  "map": "map1",
+  "runner": "single",
+  "trial_path": "single-v2/seed-{seed:02d}",
+  "paper_seeds": "0-19",
+  "seed_base": "4000000 + 100000 * seed",
+  "description": "One agent controlling all nine robots and changing one route per answer. Stops at a safe plan with F <= 153, after 15 answers without improvement, or after 120 answers.",
+  "stopping": "15 answers without improvement, safe plan with F<=153, or 120 answers",
+  "settings": {
+    "model": "openai/gpt-oss-120b",
+    "provider": "groq",
+    "reasoning_effort": "medium",
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "timeout": 3600.0,
+    "retry_seed_policy": "resample",
+    "target_F": 153.0,
+    "format_attempts": 3,
+    "transport_attempts": 20,
+    "initial_F": 1476.0,
+    "certified_global_minimum": 144.0,
+    "width": 1,
+    "max_updated_robots": 1,
+    "round_budget": 120,
+    "patience_rounds": 15
+  }
+}

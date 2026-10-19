@@ -1,0 +1,108 @@
+{
+  "workspace": ".",
+  "model": "openai/gpt-oss-120b",
+  "provider": "groq",
+  "reasoning_effort": "medium",
+  "temperature": 0.6,
+  "top_p": 0.95,
+  "timeout": 3600.0,
+  "hard_deadline": null,
+  "api_seed": true,
+  "retry_seed_policy": "resample",
+  "target_F": 156.0,
+  "format_attempts": 3,
+  "transport_attempts": 20,
+  "initial_F": 1479.0,
+  "certified_global_minimum": 147.0,
+  "map_file_sha256": "11703078740cad58f12a0c761cc52b90f3b0674034e94757c2a2019641975766",
+  "token_policy": "No max_tokens, max_completion_tokens or reasoning token cap is sent.",
+  "created_utc": "2026-10-16T17:48:11Z",
+  "version": 1,
+  "profile": "map2-single-v2-partial-1",
+  "protocol_script": "protocol_openrouter_single_v2.py",
+  "arm": "single_v2_partial1",
+  "prompt_version": "single-v2-k1-best1",
+  "width": 1,
+  "max_updated_robots": 1,
+  "round_budget": 120,
+  "patience_rounds": 15,
+  "replicates": 10,
+  "cars": 9,
+  "description": "One-route single agent with the v2 prompt: the complete checked state of the installed plan (map with axes and an explicit wall list, every program and cost, a tick-by-tick timeline of all robots, every current collision with maps of the tick before and the tick of the collision), the accepted changes so far, and every attempt rejected on the installed plan. No route, distance to the optimum or repair strategy.",
+  "stopping": "15 answers without improvement, safe plan with F<=153, or 120 answers",
+  "seed_design": "answer r uses api seed base + 1000 r; base = 4000000 + 100000 * replicate",
+  "trials": [
+    {
+      "arm": "single_v2_partial1",
+      "id": "m2one-00",
+      "replicate": 0,
+      "api_seed_base": 4000000,
+      "path": "single-v2/seed-00"
+    },
+    {
+      "arm": "single_v2_partial1",
+      "id": "m2one-01",
+      "replicate": 1,
+      "api_seed_base": 4100000,
+      "path": "single-v2/seed-01"
+    },
+    {
+      "arm": "single_v2_partial1",
+      "id": "m2one-02",
+      "replicate": 2,
+      "api_seed_base": 4200000,
+      "path": "single-v2/seed-02"
+    },
+    {
+      "arm": "single_v2_partial1",
+      "id": "m2one-03",
+      "replicate": 3,
+      "api_seed_base": 4300000,
+      "path": "single-v2/seed-03"
+    },
+    {
+      "arm": "single_v2_partial1",
+      "id": "m2one-04",
+      "replicate": 4,
+      "api_seed_base": 4400000,
+      "path": "single-v2/seed-04"
+    },
+    {
+      "arm": "single_v2_partial1",
+      "id": "m2one-05",
+      "replicate": 5,
+      "api_seed_base": 4500000,
+      "path": "single-v2/seed-05"
+    },
+    {
+      "arm": "single_v2_partial1",
+      "id": "m2one-06",
+      "replicate": 6,
+      "api_seed_base": 4600000,
+      "path": "single-v2/seed-06"
+    },
+    {
+      "arm": "single_v2_partial1",
+      "id": "m2one-07",
+      "replicate": 7,
+      "api_seed_base": 4700000,
+      "path": "single-v2/seed-07"
+    },
+    {
+      "arm": "single_v2_partial1",
+      "id": "m2one-08",
+      "replicate": 8,
+      "api_seed_base": 4800000,
+      "path": "single-v2/seed-08"
+    },
+    {
+      "arm": "single_v2_partial1",
+      "id": "m2one-09",
+      "replicate": 9,
+      "api_seed_base": 4900000,
+      "path": "single-v2/seed-09"
+    }
+  ],
+  "map": "map 2",
+  "map_note": "Map 2: different walls (4-cell horizontal, 4-cell vertical, two 2-cell pieces) and robot pattern; optimum 147 certified by CBS at the shortest-path lower bound. Same code, prompts, model and settings as the map-1 campaign multiseed-ninecars-single-v2-one-update-20261016; target is the optimum plus 9."
+}

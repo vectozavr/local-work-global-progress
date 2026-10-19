@@ -1,0 +1,2079 @@
+{
+ "campaign": "team-unsafe-map2-20261017",
+ "correction": true,
+ "planned": 20,
+ "completed": 20,
+ "all_planned_completed": true,
+ "safe_complete": 19,
+ "strict_target": 19,
+ "statistics": {
+  "checked_seconds": {
+   "n": 20,
+   "mean": 423.66098955194997,
+   "median": 390.42131137399986,
+   "minimum": 58.780532416999996,
+   "maximum": 948.5528230830002,
+   "sample_sd": 232.4146109047482
+  },
+  "sequential_seconds": {
+   "n": 20,
+   "mean": 764.16578758525,
+   "median": 708.6249217074998,
+   "minimum": 97.452762334,
+   "maximum": 1551.15050375,
+   "sample_sd": 410.3275166226838
+  },
+  "rounds": {
+   "n": 20,
+   "mean": 7.4,
+   "median": 7.0,
+   "minimum": 1,
+   "maximum": 16,
+   "sample_sd": 3.589458249696713
+  },
+  "answers": {
+   "n": 20,
+   "mean": 47.95,
+   "median": 45.0,
+   "minimum": 7,
+   "maximum": 93,
+   "sample_sd": 22.626195810213108
+  },
+  "wall_seconds": {
+   "n": 20,
+   "mean": 454.21351487636565,
+   "median": 408.6338336467743,
+   "minimum": 58.89922499656677,
+   "maximum": 1063.821925163269,
+   "sample_sd": 259.2042279838386
+  },
+  "reported_cost_usd": {
+   "n": 20,
+   "mean": 0.23494562249999998,
+   "median": 0.20843932499999995,
+   "minimum": 0.027688199999999996,
+   "maximum": 0.49858184999999994,
+   "sample_sd": 0.1301599957972934
+  },
+  "final_F": {
+   "n": 20,
+   "mean": 157.05,
+   "median": 152.5,
+   "minimum": 149.0,
+   "maximum": 251.0,
+   "sample_sd": 22.255632048871064
+  },
+  "time_to_safe_target_successes_only": {
+   "n": 19,
+   "mean": 423.3558097498947,
+   "median": 381.75417516299984,
+   "minimum": 58.780532416999996,
+   "maximum": 948.5528230830002,
+   "sample_sd": 238.7791965495998
+  }
+ },
+ "reported_total_cost_usd": 4.69891245,
+ "independent_replay_passed": true,
+ "runs": [
+  {
+   "final": {
+    "F": 153.0,
+    "delivered": 9,
+    "collisions": 0
+   },
+   "safe": true,
+   "reached_target": true,
+   "termination": "target_reached",
+   "rounds": 16,
+   "answers": 93,
+   "checked_seconds": 948.5528230830002,
+   "sequential_seconds": 1519.921168418,
+   "wall_seconds": 955.2321436405182,
+   "http_requests": 93,
+   "reported_cost_usd": 0.45187109999999997,
+   "trace": [
+    {
+     "round": 1,
+     "checked_seconds": 33.634061458000005,
+     "sequential_seconds": 70.275817376,
+     "F": 361.0,
+     "installed_F": 361.0,
+     "delivered": 9,
+     "collisions": 2,
+     "interference": -100.0
+    },
+    {
+     "round": 2,
+     "checked_seconds": 86.389875708,
+     "sequential_seconds": 169.77182483500002,
+     "F": 273.0,
+     "installed_F": 273.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 100.0
+    },
+    {
+     "round": 3,
+     "checked_seconds": 131.306025791,
+     "sequential_seconds": 249.802419709,
+     "F": 273.0,
+     "installed_F": 754.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 0.0
+    },
+    {
+     "round": 4,
+     "checked_seconds": 195.23362933200002,
+     "sequential_seconds": 407.605385167,
+     "F": 273.0,
+     "installed_F": 456.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 0.0
+    },
+    {
+     "round": 5,
+     "checked_seconds": 260.353722041,
+     "sequential_seconds": 554.081323587,
+     "F": 206.0,
+     "installed_F": 206.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 100.0
+    },
+    {
+     "round": 6,
+     "checked_seconds": 321.17973375,
+     "sequential_seconds": 680.243716961,
+     "F": 206.0,
+     "installed_F": 902.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 7,
+     "checked_seconds": 402.421006999,
+     "sequential_seconds": 786.8039612099999,
+     "F": 206.0,
+     "installed_F": 363.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 800.0
+    },
+    {
+     "round": 8,
+     "checked_seconds": 459.707372707,
+     "sequential_seconds": 928.8414047089998,
+     "F": 164.0,
+     "installed_F": 164.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 100.0
+    },
+    {
+     "round": 9,
+     "checked_seconds": 501.16102904,
+     "sequential_seconds": 982.6975660839998,
+     "F": 161.0,
+     "installed_F": 161.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 10,
+     "checked_seconds": 559.435651623,
+     "sequential_seconds": 1040.972188667,
+     "F": 161.0,
+     "installed_F": 252.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 11,
+     "checked_seconds": 618.2697921230001,
+     "sequential_seconds": 1133.704338167,
+     "F": 161.0,
+     "installed_F": 256.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 200.0
+    },
+    {
+     "round": 12,
+     "checked_seconds": 678.3727772470003,
+     "sequential_seconds": 1225.3939971660002,
+     "F": 161.0,
+     "installed_F": 163.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 100.0
+    },
+    {
+     "round": 13,
+     "checked_seconds": 743.8460601230003,
+     "sequential_seconds": 1315.214405458,
+     "F": 160.0,
+     "installed_F": 160.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 14,
+     "checked_seconds": 813.5724216650002,
+     "sequential_seconds": 1384.940767,
+     "F": 160.0,
+     "installed_F": 160.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 15,
+     "checked_seconds": 869.8880309570003,
+     "sequential_seconds": 1441.2563762920001,
+     "F": 160.0,
+     "installed_F": 160.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 16,
+     "checked_seconds": 948.5528230830002,
+     "sequential_seconds": 1519.921168418,
+     "F": 153.0,
+     "installed_F": 153.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    }
+   ],
+   "first_safe_target_seconds": 948.5528230830002,
+   "trial": {
+    "id": "tun2-00",
+    "replicate": 0,
+    "api_seed_base": 4000000,
+    "path": "team-v2/seed-00"
+   }
+  },
+  {
+   "final": {
+    "F": 155.0,
+    "delivered": 9,
+    "collisions": 0
+   },
+   "safe": true,
+   "reached_target": true,
+   "termination": "target_reached",
+   "rounds": 6,
+   "answers": 40,
+   "checked_seconds": 319.17112566500003,
+   "sequential_seconds": 604.404299412,
+   "wall_seconds": 320.622841835022,
+   "http_requests": 40,
+   "reported_cost_usd": 0.17965650000000005,
+   "trace": [
+    {
+     "round": 1,
+     "checked_seconds": 31.681595918000003,
+     "sequential_seconds": 68.83327391700001,
+     "F": 761.0,
+     "installed_F": 761.0,
+     "delivered": 9,
+     "collisions": 6,
+     "interference": 200.0
+    },
+    {
+     "round": 2,
+     "checked_seconds": 96.60698204299999,
+     "sequential_seconds": 226.251783542,
+     "F": 179.0,
+     "installed_F": 179.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 200.0
+    },
+    {
+     "round": 3,
+     "checked_seconds": 158.185797667,
+     "sequential_seconds": 344.56492566500003,
+     "F": 171.0,
+     "installed_F": 171.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 4,
+     "checked_seconds": 218.49765075,
+     "sequential_seconds": 432.34800708100005,
+     "F": 171.0,
+     "installed_F": 257.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 5,
+     "checked_seconds": 255.504136249,
+     "sequential_seconds": 505.3296763710001,
+     "F": 157.0,
+     "installed_F": 157.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 100.0
+    },
+    {
+     "round": 6,
+     "checked_seconds": 319.17112566500003,
+     "sequential_seconds": 604.404299412,
+     "F": 155.0,
+     "installed_F": 155.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    }
+   ],
+   "first_safe_target_seconds": 319.17112566500003,
+   "trial": {
+    "id": "tun2-01",
+    "replicate": 1,
+    "api_seed_base": 4100000,
+    "path": "team-v2/seed-01"
+   }
+  },
+  {
+   "final": {
+    "F": 153.0,
+    "delivered": 9,
+    "collisions": 0
+   },
+   "safe": true,
+   "reached_target": true,
+   "termination": "target_reached",
+   "rounds": 8,
+   "answers": 66,
+   "checked_seconds": 539.5955186250001,
+   "sequential_seconds": 1129.516196252,
+   "wall_seconds": 670.5665650367737,
+   "http_requests": 67,
+   "reported_cost_usd": 0.37782119999999997,
+   "trace": [
+    {
+     "round": 1,
+     "checked_seconds": 61.416168541999994,
+     "sequential_seconds": 108.244126709,
+     "F": 550.0,
+     "installed_F": 550.0,
+     "delivered": 9,
+     "collisions": 4,
+     "interference": 100.0
+    },
+    {
+     "round": 2,
+     "checked_seconds": 127.83949216699999,
+     "sequential_seconds": 263.39928570899997,
+     "F": 550.0,
+     "installed_F": 1770.0,
+     "delivered": 9,
+     "collisions": 4,
+     "interference": 1220.0
+    },
+    {
+     "round": 3,
+     "checked_seconds": 222.985179418,
+     "sequential_seconds": 454.049910793,
+     "F": 550.0,
+     "installed_F": 572.0,
+     "delivered": 9,
+     "collisions": 4,
+     "interference": 0.0
+    },
+    {
+     "round": 4,
+     "checked_seconds": 285.144153876,
+     "sequential_seconds": 602.174828126,
+     "F": 480.0,
+     "installed_F": 480.0,
+     "delivered": 9,
+     "collisions": 3,
+     "interference": 311.0
+    },
+    {
+     "round": 5,
+     "checked_seconds": 336.79992675000005,
+     "sequential_seconds": 747.945797043,
+     "F": 480.0,
+     "installed_F": 481.0,
+     "delivered": 9,
+     "collisions": 3,
+     "interference": 279.0
+    },
+    {
+     "round": 6,
+     "checked_seconds": 393.145550334,
+     "sequential_seconds": 875.91507817,
+     "F": 282.0,
+     "installed_F": 282.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 0.0
+    },
+    {
+     "round": 7,
+     "checked_seconds": 474.05100154300004,
+     "sequential_seconds": 1040.5867185450002,
+     "F": 172.0,
+     "installed_F": 172.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 8,
+     "checked_seconds": 539.5955186250001,
+     "sequential_seconds": 1129.516196252,
+     "F": 153.0,
+     "installed_F": 153.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    }
+   ],
+   "first_safe_target_seconds": 539.5955186250001,
+   "trial": {
+    "id": "tun2-02",
+    "replicate": 2,
+    "api_seed_base": 4200000,
+    "path": "team-v2/seed-02"
+   }
+  },
+  {
+   "final": {
+    "F": 149.0,
+    "delivered": 9,
+    "collisions": 0
+   },
+   "safe": true,
+   "reached_target": true,
+   "termination": "target_reached",
+   "rounds": 14,
+   "answers": 81,
+   "checked_seconds": 938.3798649590001,
+   "sequential_seconds": 1551.15050375,
+   "wall_seconds": 1063.821925163269,
+   "http_requests": 82,
+   "reported_cost_usd": 0.49858184999999994,
+   "trace": [
+    {
+     "round": 1,
+     "checked_seconds": 35.877639541,
+     "sequential_seconds": 80.856506042,
+     "F": 550.0,
+     "installed_F": 550.0,
+     "delivered": 9,
+     "collisions": 4,
+     "interference": 300.0
+    },
+    {
+     "round": 2,
+     "checked_seconds": 101.299545292,
+     "sequential_seconds": 222.619345377,
+     "F": 457.0,
+     "installed_F": 457.0,
+     "delivered": 9,
+     "collisions": 3,
+     "interference": 600.0
+    },
+    {
+     "round": 3,
+     "checked_seconds": 165.078296501,
+     "sequential_seconds": 356.253619543,
+     "F": 360.0,
+     "installed_F": 360.0,
+     "delivered": 9,
+     "collisions": 2,
+     "interference": 404.0
+    },
+    {
+     "round": 4,
+     "checked_seconds": 222.03416587600003,
+     "sequential_seconds": 451.00778246000004,
+     "F": 270.0,
+     "installed_F": 270.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 0.0
+    },
+    {
+     "round": 5,
+     "checked_seconds": 263.35773233500004,
+     "sequential_seconds": 533.4951832940001,
+     "F": 270.0,
+     "installed_F": 364.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 0.0
+    },
+    {
+     "round": 6,
+     "checked_seconds": 335.63006920900006,
+     "sequential_seconds": 651.3665878340001,
+     "F": 189.0,
+     "installed_F": 189.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 100.0
+    },
+    {
+     "round": 7,
+     "checked_seconds": 405.387158917,
+     "sequential_seconds": 771.0696260840001,
+     "F": 189.0,
+     "installed_F": 189.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 8,
+     "checked_seconds": 502.45378504100006,
+     "sequential_seconds": 955.3984524570001,
+     "F": 189.0,
+     "installed_F": 287.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 9,
+     "checked_seconds": 575.228211166,
+     "sequential_seconds": 1096.8303599560002,
+     "F": 180.0,
+     "installed_F": 180.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 10,
+     "checked_seconds": 645.4066942080001,
+     "sequential_seconds": 1225.251032583,
+     "F": 180.0,
+     "installed_F": 180.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 11,
+     "checked_seconds": 727.5444425000001,
+     "sequential_seconds": 1340.315081291,
+     "F": 179.0,
+     "installed_F": 179.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 12,
+     "checked_seconds": 821.8266975430001,
+     "sequential_seconds": 1434.5973363340001,
+     "F": 179.0,
+     "installed_F": 179.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 13,
+     "checked_seconds": 909.3053082090001,
+     "sequential_seconds": 1522.0759470000003,
+     "F": 179.0,
+     "installed_F": 179.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 14,
+     "checked_seconds": 938.3798649590001,
+     "sequential_seconds": 1551.15050375,
+     "F": 149.0,
+     "installed_F": 149.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    }
+   ],
+   "first_safe_target_seconds": 938.3798649590001,
+   "trial": {
+    "id": "tun2-03",
+    "replicate": 3,
+    "api_seed_base": 4300000,
+    "path": "team-v2/seed-03"
+   }
+  },
+  {
+   "final": {
+    "F": 149.0,
+    "delivered": 9,
+    "collisions": 0
+   },
+   "safe": true,
+   "reached_target": true,
+   "termination": "target_reached",
+   "rounds": 7,
+   "answers": 49,
+   "checked_seconds": 365.78568820699996,
+   "sequential_seconds": 689.5926152889998,
+   "wall_seconds": 367.5868077278137,
+   "http_requests": 49,
+   "reported_cost_usd": 0.20191649999999997,
+   "trace": [
+    {
+     "round": 1,
+     "checked_seconds": 34.189605916000005,
+     "sequential_seconds": 80.23371070800002,
+     "F": 351.0,
+     "installed_F": 351.0,
+     "delivered": 9,
+     "collisions": 2,
+     "interference": -100.0
+    },
+    {
+     "round": 2,
+     "checked_seconds": 68.878791874,
+     "sequential_seconds": 138.276623749,
+     "F": 351.0,
+     "installed_F": 447.0,
+     "delivered": 9,
+     "collisions": 2,
+     "interference": 0.0
+    },
+    {
+     "round": 3,
+     "checked_seconds": 129.899811124,
+     "sequential_seconds": 284.80229470899997,
+     "F": 351.0,
+     "installed_F": 382.0,
+     "delivered": 9,
+     "collisions": 2,
+     "interference": 200.0
+    },
+    {
+     "round": 4,
+     "checked_seconds": 176.71476945699996,
+     "sequential_seconds": 362.18218912399993,
+     "F": 277.0,
+     "installed_F": 277.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 0.0
+    },
+    {
+     "round": 5,
+     "checked_seconds": 226.619505665,
+     "sequential_seconds": 452.19167033099995,
+     "F": 277.0,
+     "installed_F": 452.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 301.0
+    },
+    {
+     "round": 6,
+     "checked_seconds": 289.223913332,
+     "sequential_seconds": 572.7304174559999,
+     "F": 257.0,
+     "installed_F": 257.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 300.0
+    },
+    {
+     "round": 7,
+     "checked_seconds": 365.78568820699996,
+     "sequential_seconds": 689.5926152889998,
+     "F": 149.0,
+     "installed_F": 149.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 100.0
+    }
+   ],
+   "first_safe_target_seconds": 365.78568820699996,
+   "trial": {
+    "id": "tun2-04",
+    "replicate": 4,
+    "api_seed_base": 4400000,
+    "path": "team-v2/seed-04"
+   }
+  },
+  {
+   "final": {
+    "F": 149.0,
+    "delivered": 9,
+    "collisions": 0
+   },
+   "safe": true,
+   "reached_target": true,
+   "termination": "target_reached",
+   "rounds": 10,
+   "answers": 78,
+   "checked_seconds": 594.6803801239998,
+   "sequential_seconds": 1266.876475374,
+   "wall_seconds": 771.7546992301941,
+   "http_requests": 80,
+   "reported_cost_usd": 0.4196174999999998,
+   "trace": [
+    {
+     "round": 1,
+     "checked_seconds": 52.164086958,
+     "sequential_seconds": 90.304126126,
+     "F": 851.0,
+     "installed_F": 851.0,
+     "delivered": 9,
+     "collisions": 7,
+     "interference": 400.0
+    },
+    {
+     "round": 2,
+     "checked_seconds": 121.712583874,
+     "sequential_seconds": 251.16177925000002,
+     "F": 640.0,
+     "installed_F": 640.0,
+     "delivered": 9,
+     "collisions": 4,
+     "interference": 560.0
+    },
+    {
+     "round": 3,
+     "checked_seconds": 187.592955499,
+     "sequential_seconds": 417.295707333,
+     "F": 640.0,
+     "installed_F": 841.0,
+     "delivered": 9,
+     "collisions": 4,
+     "interference": 421.0
+    },
+    {
+     "round": 4,
+     "checked_seconds": 250.92921141600002,
+     "sequential_seconds": 595.173620584,
+     "F": 311.0,
+     "installed_F": 311.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 300.0
+    },
+    {
+     "round": 5,
+     "checked_seconds": 319.110162498,
+     "sequential_seconds": 744.7056472080001,
+     "F": 301.0,
+     "installed_F": 301.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 100.0
+    },
+    {
+     "round": 6,
+     "checked_seconds": 383.783218873,
+     "sequential_seconds": 903.864963166,
+     "F": 178.0,
+     "installed_F": 178.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 7,
+     "checked_seconds": 448.99999054,
+     "sequential_seconds": 1007.5841827490001,
+     "F": 178.0,
+     "installed_F": 257.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 90.0
+    },
+    {
+     "round": 8,
+     "checked_seconds": 501.78067237299996,
+     "sequential_seconds": 1112.347104916,
+     "F": 157.0,
+     "installed_F": 157.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 9,
+     "checked_seconds": 545.6660327889999,
+     "sequential_seconds": 1181.621784873,
+     "F": 157.0,
+     "installed_F": 157.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 10,
+     "checked_seconds": 594.6803801239998,
+     "sequential_seconds": 1266.876475374,
+     "F": 149.0,
+     "installed_F": 149.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    }
+   ],
+   "first_safe_target_seconds": 594.6803801239998,
+   "trial": {
+    "id": "tun2-05",
+    "replicate": 5,
+    "api_seed_base": 4500000,
+    "path": "team-v2/seed-05"
+   }
+  },
+  {
+   "final": {
+    "F": 155.0,
+    "delivered": 9,
+    "collisions": 0
+   },
+   "safe": true,
+   "reached_target": true,
+   "termination": "target_reached",
+   "rounds": 7,
+   "answers": 54,
+   "checked_seconds": 381.75417516299984,
+   "sequential_seconds": 830.7362325339998,
+   "wall_seconds": 383.7196388244629,
+   "http_requests": 54,
+   "reported_cost_usd": 0.24707325000000002,
+   "trace": [
+    {
+     "round": 1,
+     "checked_seconds": 38.387894749,
+     "sequential_seconds": 94.66768904,
+     "F": 654.0,
+     "installed_F": 654.0,
+     "delivered": 9,
+     "collisions": 5,
+     "interference": 200.0
+    },
+    {
+     "round": 2,
+     "checked_seconds": 92.45341299799998,
+     "sequential_seconds": 225.034430539,
+     "F": 654.0,
+     "installed_F": 672.0,
+     "delivered": 9,
+     "collisions": 5,
+     "interference": 700.0
+    },
+    {
+     "round": 3,
+     "checked_seconds": 161.78970978899994,
+     "sequential_seconds": 378.166076706,
+     "F": 294.0,
+     "installed_F": 294.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 0.0
+    },
+    {
+     "round": 4,
+     "checked_seconds": 213.99431882999994,
+     "sequential_seconds": 476.41281124700004,
+     "F": 164.0,
+     "installed_F": 164.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 5,
+     "checked_seconds": 275.6086507469999,
+     "sequential_seconds": 566.7487773299999,
+     "F": 164.0,
+     "installed_F": 257.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 93.0
+    },
+    {
+     "round": 6,
+     "checked_seconds": 327.7278569549999,
+     "sequential_seconds": 699.8994686609999,
+     "F": 164.0,
+     "installed_F": 255.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 7,
+     "checked_seconds": 381.75417516299984,
+     "sequential_seconds": 830.7362325339998,
+     "F": 155.0,
+     "installed_F": 155.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    }
+   ],
+   "first_safe_target_seconds": 381.75417516299984,
+   "trial": {
+    "id": "tun2-06",
+    "replicate": 6,
+    "api_seed_base": 4600000,
+    "path": "team-v2/seed-06"
+   }
+  },
+  {
+   "final": {
+    "F": 251.0,
+    "delivered": 9,
+    "collisions": 1
+   },
+   "safe": false,
+   "reached_target": false,
+   "termination": "no_improvement_patience_exhausted",
+   "rounds": 7,
+   "answers": 42,
+   "checked_seconds": 429.4594057909999,
+   "sequential_seconds": 721.2547650019997,
+   "wall_seconds": 431.2527012825012,
+   "http_requests": 42,
+   "reported_cost_usd": 0.21104774999999995,
+   "trace": [
+    {
+     "round": 1,
+     "checked_seconds": 51.611274333,
+     "sequential_seconds": 106.374396001,
+     "F": 348.0,
+     "installed_F": 348.0,
+     "delivered": 9,
+     "collisions": 2,
+     "interference": 0.0
+    },
+    {
+     "round": 2,
+     "checked_seconds": 124.90734791599998,
+     "sequential_seconds": 197.40098533399998,
+     "F": 251.0,
+     "installed_F": 251.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 101.0
+    },
+    {
+     "round": 3,
+     "checked_seconds": 186.07483087399996,
+     "sequential_seconds": 300.18562683399995,
+     "F": 251.0,
+     "installed_F": 350.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 198.0
+    },
+    {
+     "round": 4,
+     "checked_seconds": 234.00749083199995,
+     "sequential_seconds": 374.8105252919999,
+     "F": 251.0,
+     "installed_F": 556.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 406.0
+    },
+    {
+     "round": 5,
+     "checked_seconds": 311.62908695699997,
+     "sequential_seconds": 510.3887416249999,
+     "F": 251.0,
+     "installed_F": 402.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 300.0
+    },
+    {
+     "round": 6,
+     "checked_seconds": 373.0905720399999,
+     "sequential_seconds": 618.8376094169998,
+     "F": 251.0,
+     "installed_F": 307.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 0.0
+    },
+    {
+     "round": 7,
+     "checked_seconds": 429.4594057909999,
+     "sequential_seconds": 721.2547650019997,
+     "F": 251.0,
+     "installed_F": 286.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 0.0
+    }
+   ],
+   "first_safe_target_seconds": null,
+   "trial": {
+    "id": "tun2-07",
+    "replicate": 7,
+    "api_seed_base": 4700000,
+    "path": "team-v2/seed-07"
+   }
+  },
+  {
+   "final": {
+    "F": 154.0,
+    "delivered": 9,
+    "collisions": 0
+   },
+   "safe": true,
+   "reached_target": true,
+   "termination": "target_reached",
+   "rounds": 3,
+   "answers": 15,
+   "checked_seconds": 157.40778933300004,
+   "sequential_seconds": 225.836999124,
+   "wall_seconds": 157.84303092956543,
+   "http_requests": 15,
+   "reported_cost_usd": 0.06427994999999999,
+   "trace": [
+    {
+     "round": 1,
+     "checked_seconds": 54.99300779200001,
+     "sequential_seconds": 86.577813875,
+     "F": 349.0,
+     "installed_F": 349.0,
+     "delivered": 9,
+     "collisions": 2,
+     "interference": 0.0
+    },
+    {
+     "round": 2,
+     "checked_seconds": 105.10261808400003,
+     "sequential_seconds": 164.175051542,
+     "F": 289.0,
+     "installed_F": 289.0,
+     "delivered": 8,
+     "collisions": 0,
+     "interference": 200.0
+    },
+    {
+     "round": 3,
+     "checked_seconds": 157.40778933300004,
+     "sequential_seconds": 225.836999124,
+     "F": 154.0,
+     "installed_F": 154.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    }
+   ],
+   "first_safe_target_seconds": 157.40778933300004,
+   "trial": {
+    "id": "tun2-08",
+    "replicate": 8,
+    "api_seed_base": 4800000,
+    "path": "team-v2/seed-08"
+   }
+  },
+  {
+   "final": {
+    "F": 152.0,
+    "delivered": 9,
+    "collisions": 0
+   },
+   "safe": true,
+   "reached_target": true,
+   "termination": "target_reached",
+   "rounds": 5,
+   "answers": 33,
+   "checked_seconds": 238.92842154299987,
+   "sequential_seconds": 422.8823843789998,
+   "wall_seconds": 240.03647089004517,
+   "http_requests": 33,
+   "reported_cost_usd": 0.12650039999999999,
+   "trace": [
+    {
+     "round": 1,
+     "checked_seconds": 32.691572459,
+     "sequential_seconds": 68.09585721,
+     "F": 349.0,
+     "installed_F": 349.0,
+     "delivered": 9,
+     "collisions": 2,
+     "interference": 0.0
+    },
+    {
+     "round": 2,
+     "checked_seconds": 85.81147704299998,
+     "sequential_seconds": 181.07610171199997,
+     "F": 349.0,
+     "installed_F": 362.0,
+     "delivered": 9,
+     "collisions": 2,
+     "interference": 200.0
+    },
+    {
+     "round": 3,
+     "checked_seconds": 126.36946666799996,
+     "sequential_seconds": 253.82993942099995,
+     "F": 349.0,
+     "installed_F": 349.0,
+     "delivered": 9,
+     "collisions": 2,
+     "interference": 101.0
+    },
+    {
+     "round": 4,
+     "checked_seconds": 178.29299504299993,
+     "sequential_seconds": 337.8689379629999,
+     "F": 251.0,
+     "installed_F": 251.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 0.0
+    },
+    {
+     "round": 5,
+     "checked_seconds": 238.92842154299987,
+     "sequential_seconds": 422.8823843789998,
+     "F": 152.0,
+     "installed_F": 152.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    }
+   ],
+   "first_safe_target_seconds": 238.92842154299987,
+   "trial": {
+    "id": "tun2-09",
+    "replicate": 9,
+    "api_seed_base": 4900000,
+    "path": "team-v2/seed-09"
+   }
+  },
+  {
+   "final": {
+    "F": 151.0,
+    "delivered": 9,
+    "collisions": 0
+   },
+   "safe": true,
+   "reached_target": true,
+   "termination": "target_reached",
+   "rounds": 6,
+   "answers": 38,
+   "checked_seconds": 399.08844758499987,
+   "sequential_seconds": 632.6998783779998,
+   "wall_seconds": 400.5502760410309,
+   "http_requests": 38,
+   "reported_cost_usd": 0.18839535,
+   "trace": [
+    {
+     "round": 1,
+     "checked_seconds": 37.896036376,
+     "sequential_seconds": 60.668614334,
+     "F": 457.0,
+     "installed_F": 457.0,
+     "delivered": 9,
+     "collisions": 3,
+     "interference": 0.0
+    },
+    {
+     "round": 2,
+     "checked_seconds": 115.583907709,
+     "sequential_seconds": 212.95411337399997,
+     "F": 455.0,
+     "installed_F": 455.0,
+     "delivered": 9,
+     "collisions": 3,
+     "interference": 200.0
+    },
+    {
+     "round": 3,
+     "checked_seconds": 189.651328417,
+     "sequential_seconds": 359.529568166,
+     "F": 455.0,
+     "installed_F": 591.0,
+     "delivered": 9,
+     "collisions": 3,
+     "interference": 338.0
+    },
+    {
+     "round": 4,
+     "checked_seconds": 252.77427679299998,
+     "sequential_seconds": 486.38570758599997,
+     "F": 159.0,
+     "installed_F": 159.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 5,
+     "checked_seconds": 333.51324387599993,
+     "sequential_seconds": 567.1246746689999,
+     "F": 159.0,
+     "installed_F": 159.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 6,
+     "checked_seconds": 399.08844758499987,
+     "sequential_seconds": 632.6998783779998,
+     "F": 151.0,
+     "installed_F": 151.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    }
+   ],
+   "first_safe_target_seconds": 399.08844758499987,
+   "trial": {
+    "id": "tun2-10",
+    "replicate": 10,
+    "api_seed_base": 5000000,
+    "path": "team-v2/seed-10"
+   }
+  },
+  {
+   "final": {
+    "F": 149.0,
+    "delivered": 9,
+    "collisions": 0
+   },
+   "safe": true,
+   "reached_target": true,
+   "termination": "target_reached",
+   "rounds": 4,
+   "answers": 23,
+   "checked_seconds": 181.42746533200003,
+   "sequential_seconds": 291.402266499,
+   "wall_seconds": 182.15103697776794,
+   "http_requests": 23,
+   "reported_cost_usd": 0.08403134999999999,
+   "trace": [
+    {
+     "round": 1,
+     "checked_seconds": 41.750375291,
+     "sequential_seconds": 90.873888041,
+     "F": 261.0,
+     "installed_F": 261.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": -100.0
+    },
+    {
+     "round": 2,
+     "checked_seconds": 87.555586541,
+     "sequential_seconds": 189.03927445800002,
+     "F": 261.0,
+     "installed_F": 277.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 18.0
+    },
+    {
+     "round": 3,
+     "checked_seconds": 140.84802770800002,
+     "sequential_seconds": 250.82282887500003,
+     "F": 170.0,
+     "installed_F": 170.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 100.0
+    },
+    {
+     "round": 4,
+     "checked_seconds": 181.42746533200003,
+     "sequential_seconds": 291.402266499,
+     "F": 149.0,
+     "installed_F": 149.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    }
+   ],
+   "first_safe_target_seconds": 181.42746533200003,
+   "trial": {
+    "id": "tun2-11",
+    "replicate": 11,
+    "api_seed_base": 5100000,
+    "path": "team-v2/seed-11"
+   }
+  },
+  {
+   "final": {
+    "F": 155.0,
+    "delivered": 9,
+    "collisions": 0
+   },
+   "safe": true,
+   "reached_target": true,
+   "termination": "target_reached",
+   "rounds": 7,
+   "answers": 62,
+   "checked_seconds": 414.54216762600004,
+   "sequential_seconds": 1012.884794086,
+   "wall_seconds": 416.7173912525177,
+   "http_requests": 62,
+   "reported_cost_usd": 0.3018652499999999,
+   "trace": [
+    {
+     "round": 1,
+     "checked_seconds": 37.15945325,
+     "sequential_seconds": 101.44687724899998,
+     "F": 655.0,
+     "installed_F": 655.0,
+     "delivered": 9,
+     "collisions": 5,
+     "interference": 200.0
+    },
+    {
+     "round": 2,
+     "checked_seconds": 92.497422416,
+     "sequential_seconds": 246.26845570799998,
+     "F": 655.0,
+     "installed_F": 859.0,
+     "delivered": 9,
+     "collisions": 5,
+     "interference": 706.0
+    },
+    {
+     "round": 3,
+     "checked_seconds": 157.49630016700002,
+     "sequential_seconds": 416.595458249,
+     "F": 503.0,
+     "installed_F": 503.0,
+     "delivered": 9,
+     "collisions": 3,
+     "interference": 800.0
+    },
+    {
+     "round": 4,
+     "checked_seconds": 220.56538958500002,
+     "sequential_seconds": 567.58627346,
+     "F": 503.0,
+     "installed_F": 775.0,
+     "delivered": 9,
+     "collisions": 3,
+     "interference": 368.0
+    },
+    {
+     "round": 5,
+     "checked_seconds": 292.155333626,
+     "sequential_seconds": 727.0581719600001,
+     "F": 503.0,
+     "installed_F": 575.0,
+     "delivered": 9,
+     "collisions": 3,
+     "interference": 300.0
+    },
+    {
+     "round": 6,
+     "checked_seconds": 356.71350916800003,
+     "sequential_seconds": 884.209853461,
+     "F": 167.0,
+     "installed_F": 167.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 200.0
+    },
+    {
+     "round": 7,
+     "checked_seconds": 414.54216762600004,
+     "sequential_seconds": 1012.884794086,
+     "F": 155.0,
+     "installed_F": 155.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    }
+   ],
+   "first_safe_target_seconds": 414.54216762600004,
+   "trial": {
+    "id": "tun2-12",
+    "replicate": 12,
+    "api_seed_base": 5200000,
+    "path": "team-v2/seed-12"
+   }
+  },
+  {
+   "final": {
+    "F": 156.0,
+    "delivered": 9,
+    "collisions": 0
+   },
+   "safe": true,
+   "reached_target": true,
+   "termination": "target_reached",
+   "rounds": 5,
+   "answers": 29,
+   "checked_seconds": 260.74938033699993,
+   "sequential_seconds": 406.9676291289999,
+   "wall_seconds": 261.71511006355286,
+   "http_requests": 29,
+   "reported_cost_usd": 0.11933819999999996,
+   "trace": [
+    {
+     "round": 1,
+     "checked_seconds": 34.711001125,
+     "sequential_seconds": 96.956921917,
+     "F": 255.0,
+     "installed_F": 255.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": -100.0
+    },
+    {
+     "round": 2,
+     "checked_seconds": 83.88121262499999,
+     "sequential_seconds": 175.25302349999998,
+     "F": 255.0,
+     "installed_F": 357.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 201.0
+    },
+    {
+     "round": 3,
+     "checked_seconds": 125.342222377,
+     "sequential_seconds": 246.47532671099998,
+     "F": 255.0,
+     "installed_F": 261.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 300.0
+    },
+    {
+     "round": 4,
+     "checked_seconds": 197.332708003,
+     "sequential_seconds": 343.55095679499993,
+     "F": 160.0,
+     "installed_F": 160.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 100.0
+    },
+    {
+     "round": 5,
+     "checked_seconds": 260.74938033699993,
+     "sequential_seconds": 406.9676291289999,
+     "F": 156.0,
+     "installed_F": 156.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    }
+   ],
+   "first_safe_target_seconds": 260.74938033699993,
+   "trial": {
+    "id": "tun2-13",
+    "replicate": 13,
+    "api_seed_base": 5300000,
+    "path": "team-v2/seed-13"
+   }
+  },
+  {
+   "final": {
+    "F": 150.0,
+    "delivered": 9,
+    "collisions": 0
+   },
+   "safe": true,
+   "reached_target": true,
+   "termination": "target_reached",
+   "rounds": 9,
+   "answers": 48,
+   "checked_seconds": 531.7911911650001,
+   "sequential_seconds": 793.420279829,
+   "wall_seconds": 534.2446761131287,
+   "http_requests": 48,
+   "reported_cost_usd": 0.23738610000000007,
+   "trace": [
+    {
+     "round": 1,
+     "checked_seconds": 34.319758916,
+     "sequential_seconds": 65.366235832,
+     "F": 578.0,
+     "installed_F": 578.0,
+     "delivered": 8,
+     "collisions": 3,
+     "interference": 100.0
+    },
+    {
+     "round": 2,
+     "checked_seconds": 97.20082458200002,
+     "sequential_seconds": 178.239357622,
+     "F": 578.0,
+     "installed_F": 669.0,
+     "delivered": 8,
+     "collisions": 3,
+     "interference": 0.0
+    },
+    {
+     "round": 3,
+     "checked_seconds": 165.43011562400005,
+     "sequential_seconds": 309.456991914,
+     "F": 578.0,
+     "installed_F": 581.0,
+     "delivered": 8,
+     "collisions": 3,
+     "interference": 310.0
+    },
+    {
+     "round": 4,
+     "checked_seconds": 244.72514374900007,
+     "sequential_seconds": 426.30982403900003,
+     "F": 278.0,
+     "installed_F": 278.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 100.0
+    },
+    {
+     "round": 5,
+     "checked_seconds": 311.8326208330001,
+     "sequential_seconds": 525.786968914,
+     "F": 179.0,
+     "installed_F": 179.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 100.0
+    },
+    {
+     "round": 6,
+     "checked_seconds": 361.6592156240001,
+     "sequential_seconds": 581.829352788,
+     "F": 178.0,
+     "installed_F": 178.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 7,
+     "checked_seconds": 416.14145654000015,
+     "sequential_seconds": 636.3115937040001,
+     "F": 178.0,
+     "installed_F": 178.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 8,
+     "checked_seconds": 472.34758508200014,
+     "sequential_seconds": 692.5177222460001,
+     "F": 178.0,
+     "installed_F": 255.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 9,
+     "checked_seconds": 531.7911911650001,
+     "sequential_seconds": 793.420279829,
+     "F": 150.0,
+     "installed_F": 150.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 100.0
+    }
+   ],
+   "first_safe_target_seconds": 531.7911911650001,
+   "trial": {
+    "id": "tun2-14",
+    "replicate": 14,
+    "api_seed_base": 5400000,
+    "path": "team-v2/seed-14"
+   }
+  },
+  {
+   "final": {
+    "F": 152.0,
+    "delivered": 9,
+    "collisions": 0
+   },
+   "safe": true,
+   "reached_target": true,
+   "termination": "target_reached",
+   "rounds": 12,
+   "answers": 74,
+   "checked_seconds": 672.245623083,
+   "sequential_seconds": 1197.7983882500002,
+   "wall_seconds": 676.5966022014618,
+   "http_requests": 74,
+   "reported_cost_usd": 0.35623379999999977,
+   "trace": [
+    {
+     "round": 1,
+     "checked_seconds": 49.449470958000006,
+     "sequential_seconds": 99.948862666,
+     "F": 258.0,
+     "installed_F": 258.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 0.0
+    },
+    {
+     "round": 2,
+     "checked_seconds": 86.691635708,
+     "sequential_seconds": 173.731498791,
+     "F": 258.0,
+     "installed_F": 547.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 297.0
+    },
+    {
+     "round": 3,
+     "checked_seconds": 138.32491783199998,
+     "sequential_seconds": 281.437445581,
+     "F": 258.0,
+     "installed_F": 654.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 701.0
+    },
+    {
+     "round": 4,
+     "checked_seconds": 207.18831470799998,
+     "sequential_seconds": 432.147012167,
+     "F": 258.0,
+     "installed_F": 358.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 0.0
+    },
+    {
+     "round": 5,
+     "checked_seconds": 271.527453167,
+     "sequential_seconds": 572.174907209,
+     "F": 258.0,
+     "installed_F": 859.0,
+     "delivered": 9,
+     "collisions": 1,
+     "interference": 900.0
+    },
+    {
+     "round": 6,
+     "checked_seconds": 311.52132712499997,
+     "sequential_seconds": 691.212952626,
+     "F": 169.0,
+     "installed_F": 169.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 700.0
+    },
+    {
+     "round": 7,
+     "checked_seconds": 361.29841008299996,
+     "sequential_seconds": 784.8076968739999,
+     "F": 166.0,
+     "installed_F": 166.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 8,
+     "checked_seconds": 428.95786320799994,
+     "sequential_seconds": 865.3232997079999,
+     "F": 162.0,
+     "installed_F": 162.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 9,
+     "checked_seconds": 491.0185218739999,
+     "sequential_seconds": 927.3839583739998,
+     "F": 162.0,
+     "installed_F": 162.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 10,
+     "checked_seconds": 557.378841748,
+     "sequential_seconds": 993.7442782479999,
+     "F": 162.0,
+     "installed_F": 251.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 11,
+     "checked_seconds": 619.150351957,
+     "sequential_seconds": 1103.203645873,
+     "F": 162.0,
+     "installed_F": 253.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 200.0
+    },
+    {
+     "round": 12,
+     "checked_seconds": 672.245623083,
+     "sequential_seconds": 1197.7983882500002,
+     "F": 152.0,
+     "installed_F": 152.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 100.0
+    }
+   ],
+   "first_safe_target_seconds": 672.245623083,
+   "trial": {
+    "id": "tun2-15",
+    "replicate": 15,
+    "api_seed_base": 5500000,
+    "path": "team-v2/seed-15"
+   }
+  },
+  {
+   "final": {
+    "F": 153.0,
+    "delivered": 9,
+    "collisions": 0
+   },
+   "safe": true,
+   "reached_target": true,
+   "termination": "target_reached",
+   "rounds": 5,
+   "answers": 41,
+   "checked_seconds": 340.82447620700003,
+   "sequential_seconds": 695.9950784129999,
+   "wall_seconds": 343.2694163322449,
+   "http_requests": 41,
+   "reported_cost_usd": 0.20583089999999996,
+   "trace": [
+    {
+     "round": 1,
+     "checked_seconds": 41.23550525,
+     "sequential_seconds": 101.571029376,
+     "F": 460.0,
+     "installed_F": 460.0,
+     "delivered": 9,
+     "collisions": 3,
+     "interference": 100.0
+    },
+    {
+     "round": 2,
+     "checked_seconds": 129.87750275000002,
+     "sequential_seconds": 277.987554833,
+     "F": 357.0,
+     "installed_F": 357.0,
+     "delivered": 9,
+     "collisions": 2,
+     "interference": 1.0
+    },
+    {
+     "round": 3,
+     "checked_seconds": 223.05035362400005,
+     "sequential_seconds": 459.44241224700005,
+     "F": 357.0,
+     "installed_F": 380.0,
+     "delivered": 9,
+     "collisions": 2,
+     "interference": 27.0
+    },
+    {
+     "round": 4,
+     "checked_seconds": 281.778697416,
+     "sequential_seconds": 565.2277819139999,
+     "F": 357.0,
+     "installed_F": 450.0,
+     "delivered": 9,
+     "collisions": 2,
+     "interference": 173.0
+    },
+    {
+     "round": 5,
+     "checked_seconds": 340.82447620700003,
+     "sequential_seconds": 695.9950784129999,
+     "F": 153.0,
+     "installed_F": 153.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 200.0
+    }
+   ],
+   "first_safe_target_seconds": 340.82447620700003,
+   "trial": {
+    "id": "tun2-16",
+    "replicate": 16,
+    "api_seed_base": 5600000,
+    "path": "team-v2/seed-16"
+   }
+  },
+  {
+   "final": {
+    "F": 150.0,
+    "delivered": 9,
+    "collisions": 0
+   },
+   "safe": true,
+   "reached_target": true,
+   "termination": "target_reached",
+   "rounds": 9,
+   "answers": 53,
+   "checked_seconds": 427.068656251,
+   "sequential_seconds": 760.5691322930002,
+   "wall_seconds": 429.63812589645386,
+   "http_requests": 53,
+   "reported_cost_usd": 0.22534890000000002,
+   "trace": [
+    {
+     "round": 1,
+     "checked_seconds": 43.136994959,
+     "sequential_seconds": 90.239329043,
+     "F": 453.0,
+     "installed_F": 453.0,
+     "delivered": 9,
+     "collisions": 3,
+     "interference": 0.0
+    },
+    {
+     "round": 2,
+     "checked_seconds": 116.388938085,
+     "sequential_seconds": 204.05825771000002,
+     "F": 453.0,
+     "installed_F": 453.0,
+     "delivered": 9,
+     "collisions": 3,
+     "interference": 0.0
+    },
+    {
+     "round": 3,
+     "checked_seconds": 182.351990752,
+     "sequential_seconds": 320.97930371000007,
+     "F": 453.0,
+     "installed_F": 471.0,
+     "delivered": 9,
+     "collisions": 3,
+     "interference": 108.0
+    },
+    {
+     "round": 4,
+     "checked_seconds": 228.17837658599998,
+     "sequential_seconds": 435.13732150300007,
+     "F": 167.0,
+     "installed_F": 167.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 100.0
+    },
+    {
+     "round": 5,
+     "checked_seconds": 277.887760211,
+     "sequential_seconds": 523.82882442,
+     "F": 163.0,
+     "installed_F": 163.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 6,
+     "checked_seconds": 322.31960275200004,
+     "sequential_seconds": 603.2654745030002,
+     "F": 163.0,
+     "installed_F": 455.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 7,
+     "checked_seconds": 376.10261850100005,
+     "sequential_seconds": 694.5828407930003,
+     "F": 159.0,
+     "installed_F": 159.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 300.0
+    },
+    {
+     "round": 8,
+     "checked_seconds": 395.44622516800007,
+     "sequential_seconds": 721.1920230850003,
+     "F": 159.0,
+     "installed_F": 447.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 300.0
+    },
+    {
+     "round": 9,
+     "checked_seconds": 427.068656251,
+     "sequential_seconds": 760.5691322930002,
+     "F": 150.0,
+     "installed_F": 150.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 300.0
+    }
+   ],
+   "first_safe_target_seconds": 427.068656251,
+   "trial": {
+    "id": "tun2-17",
+    "replicate": 17,
+    "api_seed_base": 5700000,
+    "path": "team-v2/seed-17"
+   }
+  },
+  {
+   "final": {
+    "F": 156.0,
+    "delivered": 9,
+    "collisions": 0
+   },
+   "safe": true,
+   "reached_target": true,
+   "termination": "target_reached",
+   "rounds": 7,
+   "answers": 33,
+   "checked_seconds": 272.986658543,
+   "sequential_seconds": 431.9539029599999,
+   "wall_seconds": 418.0516130924225,
+   "http_requests": 35,
+   "reported_cost_usd": 0.17442839999999998,
+   "trace": [
+    {
+     "round": 1,
+     "checked_seconds": 43.992195167,
+     "sequential_seconds": 103.17753533299998,
+     "F": 463.0,
+     "installed_F": 463.0,
+     "delivered": 9,
+     "collisions": 3,
+     "interference": -100.0
+    },
+    {
+     "round": 2,
+     "checked_seconds": 106.952701375,
+     "sequential_seconds": 210.62360895799998,
+     "F": 158.0,
+     "installed_F": 158.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 3,
+     "checked_seconds": 146.789783042,
+     "sequential_seconds": 250.46069062499998,
+     "F": 158.0,
+     "installed_F": 158.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 4,
+     "checked_seconds": 183.93740866699997,
+     "sequential_seconds": 287.6083162499999,
+     "F": 158.0,
+     "installed_F": 158.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 5,
+     "checked_seconds": 201.48660754199997,
+     "sequential_seconds": 305.1575151249999,
+     "F": 158.0,
+     "installed_F": 247.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 0.0
+    },
+    {
+     "round": 6,
+     "checked_seconds": 237.05623045899998,
+     "sequential_seconds": 365.2637409169999,
+     "F": 158.0,
+     "installed_F": 250.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 101.0
+    },
+    {
+     "round": 7,
+     "checked_seconds": 272.986658543,
+     "sequential_seconds": 431.9539029599999,
+     "F": 156.0,
+     "installed_F": 156.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": 100.0
+    }
+   ],
+   "first_safe_target_seconds": 272.986658543,
+   "trial": {
+    "id": "tun2-18",
+    "replicate": 18,
+    "api_seed_base": 5800000,
+    "path": "team-v2/seed-18"
+   }
+  },
+  {
+   "final": {
+    "F": 149.0,
+    "delivered": 9,
+    "collisions": 0
+   },
+   "safe": true,
+   "reached_target": true,
+   "termination": "target_reached",
+   "rounds": 1,
+   "answers": 7,
+   "checked_seconds": 58.780532416999996,
+   "sequential_seconds": 97.452762334,
+   "wall_seconds": 58.89922499656677,
+   "http_requests": 7,
+   "reported_cost_usd": 0.027688199999999996,
+   "trace": [
+    {
+     "round": 1,
+     "checked_seconds": 58.780532416999996,
+     "sequential_seconds": 97.452762334,
+     "F": 149.0,
+     "installed_F": 149.0,
+     "delivered": 9,
+     "collisions": 0,
+     "interference": -100.0
+    }
+   ],
+   "first_safe_target_seconds": 58.780532416999996,
+   "trial": {
+    "id": "tun2-19",
+    "replicate": 19,
+    "api_seed_base": 5900000,
+    "path": "team-v2/seed-19"
+   }
+  }
+ ]
+}

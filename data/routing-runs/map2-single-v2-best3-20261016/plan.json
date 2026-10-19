@@ -1,0 +1,179 @@
+{
+  "workspace": ".",
+  "model": "openai/gpt-oss-120b",
+  "provider": "groq",
+  "reasoning_effort": "medium",
+  "temperature": 0.6,
+  "top_p": 0.95,
+  "timeout": 3600.0,
+  "hard_deadline": null,
+  "api_seed": true,
+  "retry_seed_policy": "resample",
+  "target_F": 156.0,
+  "format_attempts": 3,
+  "transport_attempts": 20,
+  "initial_F": 1479.0,
+  "certified_global_minimum": 147.0,
+  "map_file_sha256": "11703078740cad58f12a0c761cc52b90f3b0674034e94757c2a2019641975766",
+  "token_policy": "No max_tokens, max_completion_tokens or reasoning token cap is sent.",
+  "created_utc": "2026-10-16T17:48:11Z",
+  "version": 1,
+  "profile": "map2-single-v2-partial-1-best3",
+  "protocol_script": "protocol_openrouter_single_v2.py",
+  "arm": "single_v2_best3",
+  "prompt_version": "single-v2-k1-best3",
+  "width": 3,
+  "max_updated_robots": 1,
+  "round_budget": 40,
+  "patience_rounds": 5,
+  "replicates": 10,
+  "cars": 9,
+  "description": "Parallel best of three one-route single agents with the v2 prompt: every round, three copies receive the same prompt (installed plan, accepted changes, attempts rejected on that plan) with their own seeds; each replaces one route; the best strictly improving answer is installed and the other two are discarded; if none improves, all three enter the rejected-attempt log. Round time is the slowest of the three answers. Byte-identical source snapshot to multiseed-ninecars-single-v2-one-update-20261016.",
+  "stopping": "5 rounds without improvement (15 answers), safe plan with F<=153, or 40 rounds (120 answers)",
+  "seed_design": "copy c in round r uses api seed base + 1000 r + c; base = 4000000 + 100000 * replicate",
+  "trials": [
+    {
+      "arm": "single_v2_best3",
+      "id": "m2best3-00",
+      "replicate": 0,
+      "api_seed_base": 4000000,
+      "path": "single-v2-best3/seed-00"
+    },
+    {
+      "arm": "single_v2_best3",
+      "id": "m2best3-01",
+      "replicate": 1,
+      "api_seed_base": 4100000,
+      "path": "single-v2-best3/seed-01"
+    },
+    {
+      "arm": "single_v2_best3",
+      "id": "m2best3-02",
+      "replicate": 2,
+      "api_seed_base": 4200000,
+      "path": "single-v2-best3/seed-02"
+    },
+    {
+      "arm": "single_v2_best3",
+      "id": "m2best3-03",
+      "replicate": 3,
+      "api_seed_base": 4300000,
+      "path": "single-v2-best3/seed-03"
+    },
+    {
+      "arm": "single_v2_best3",
+      "id": "m2best3-04",
+      "replicate": 4,
+      "api_seed_base": 4400000,
+      "path": "single-v2-best3/seed-04"
+    },
+    {
+      "arm": "single_v2_best3",
+      "id": "m2best3-05",
+      "replicate": 5,
+      "api_seed_base": 4500000,
+      "path": "single-v2-best3/seed-05"
+    },
+    {
+      "arm": "single_v2_best3",
+      "id": "m2best3-06",
+      "replicate": 6,
+      "api_seed_base": 4600000,
+      "path": "single-v2-best3/seed-06"
+    },
+    {
+      "arm": "single_v2_best3",
+      "id": "m2best3-07",
+      "replicate": 7,
+      "api_seed_base": 4700000,
+      "path": "single-v2-best3/seed-07"
+    },
+    {
+      "arm": "single_v2_best3",
+      "id": "m2best3-08",
+      "replicate": 8,
+      "api_seed_base": 4800000,
+      "path": "single-v2-best3/seed-08"
+    },
+    {
+      "arm": "single_v2_best3",
+      "id": "m2best3-09",
+      "replicate": 9,
+      "api_seed_base": 4900000,
+      "path": "single-v2-best3/seed-09"
+    },
+    {
+      "arm": "single_v2_best3",
+      "id": "m2best3-10",
+      "replicate": 10,
+      "api_seed_base": 5000000,
+      "path": "single-v2-best3/seed-10"
+    },
+    {
+      "arm": "single_v2_best3",
+      "id": "m2best3-11",
+      "replicate": 11,
+      "api_seed_base": 5100000,
+      "path": "single-v2-best3/seed-11"
+    },
+    {
+      "arm": "single_v2_best3",
+      "id": "m2best3-12",
+      "replicate": 12,
+      "api_seed_base": 5200000,
+      "path": "single-v2-best3/seed-12"
+    },
+    {
+      "arm": "single_v2_best3",
+      "id": "m2best3-13",
+      "replicate": 13,
+      "api_seed_base": 5300000,
+      "path": "single-v2-best3/seed-13"
+    },
+    {
+      "arm": "single_v2_best3",
+      "id": "m2best3-14",
+      "replicate": 14,
+      "api_seed_base": 5400000,
+      "path": "single-v2-best3/seed-14"
+    },
+    {
+      "arm": "single_v2_best3",
+      "id": "m2best3-15",
+      "replicate": 15,
+      "api_seed_base": 5500000,
+      "path": "single-v2-best3/seed-15"
+    },
+    {
+      "arm": "single_v2_best3",
+      "id": "m2best3-16",
+      "replicate": 16,
+      "api_seed_base": 5600000,
+      "path": "single-v2-best3/seed-16"
+    },
+    {
+      "arm": "single_v2_best3",
+      "id": "m2best3-17",
+      "replicate": 17,
+      "api_seed_base": 5700000,
+      "path": "single-v2-best3/seed-17"
+    },
+    {
+      "arm": "single_v2_best3",
+      "id": "m2best3-18",
+      "replicate": 18,
+      "api_seed_base": 5800000,
+      "path": "single-v2-best3/seed-18"
+    },
+    {
+      "arm": "single_v2_best3",
+      "id": "m2best3-19",
+      "replicate": 19,
+      "api_seed_base": 5900000,
+      "path": "single-v2-best3/seed-19"
+    }
+  ],
+  "placement_decided_before_results": "main text: Figure 3(a) line and Table 1 column",
+  "map": "map 2",
+  "map_note": "Map 2: different walls (4-cell horizontal, 4-cell vertical, two 2-cell pieces) and robot pattern; optimum 147 certified by CBS at the shortest-path lower bound. Same code, prompts, model and settings as the map-1 campaign multiseed-ninecars-single-v2-best3-20261016; target is the optimum plus 9."
+}

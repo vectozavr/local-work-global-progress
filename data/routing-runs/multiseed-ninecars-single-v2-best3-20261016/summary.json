@@ -1,0 +1,940 @@
+{
+  "updated_utc": "2026-10-16T17:31:10Z",
+  "planned": 10,
+  "completed": 10,
+  "all_planned_completed": true,
+  "safe_complete": 10,
+  "strict_target": 9,
+  "statistics": {
+    "final_F": {
+      "n": 10,
+      "mean": 151.8,
+      "median": 152.0,
+      "minimum": 148.0,
+      "maximum": 157.0,
+      "sample_sd": 2.573367875415838
+    },
+    "checked_seconds": {
+      "n": 10,
+      "mean": 298.4445846547,
+      "median": 232.1080542715,
+      "minimum": 156.30299720899998,
+      "maximum": 673.6999835830001,
+      "sample_sd": 159.06642118882795
+    },
+    "answers": {
+      "n": 10,
+      "mean": 37.2,
+      "median": 36.0,
+      "minimum": 27,
+      "maximum": 54,
+      "sample_sd": 8.854377448471462
+    },
+    "rounds": {
+      "n": 10,
+      "mean": 12.4,
+      "median": 12.0,
+      "minimum": 9,
+      "maximum": 18,
+      "sample_sd": 2.9514591494904874
+    },
+    "wall_seconds": {
+      "n": 10,
+      "mean": 338.44400918483734,
+      "median": 307.5412003993988,
+      "minimum": 195.61451411247253,
+      "maximum": 705.0665969848633,
+      "sample_sd": 161.47455795564832
+    },
+    "reported_cost_usd": {
+      "n": 10,
+      "mean": 0.17399636999999998,
+      "median": 0.14806229999999998,
+      "minimum": 0.09009675,
+      "maximum": 0.38029994999999994,
+      "sample_sd": 0.08701987881592917
+    },
+    "time_to_target_successes_only": {
+      "n": 9,
+      "mean": 256.74954032933334,
+      "median": 213.41192895800003,
+      "minimum": 156.30299720899998,
+      "maximum": 449.6537516270001,
+      "sample_sd": 94.3770577470422
+    }
+  },
+  "reported_total_cost_usd": 1.7399636999999994,
+  "runs": [
+    {
+      "trial": {
+        "id": "v2best3-00",
+        "arm": "single_v2_best3",
+        "replicate": 0,
+        "api_seed_base": 4000000,
+        "path": "single-v2-best3/seed-00"
+      },
+      "final": {
+        "F": 157.0,
+        "delivered": 9,
+        "collisions": 0
+      },
+      "checked_seconds": 673.6999835830001,
+      "rounds": 18,
+      "answers": 54,
+      "wall_seconds": 705.0665969848633,
+      "stopping": "no_improvement_patience_exhausted",
+      "reached_target": false,
+      "requests": 56,
+      "http_errors": 2,
+      "reported_cost_usd": 0.38029994999999994,
+      "trace": [
+        {
+          "round": 0,
+          "checked_seconds": 7.0977594999999996,
+          "F": 1330.0
+        },
+        {
+          "round": 1,
+          "checked_seconds": 17.16647025,
+          "F": 1182.0
+        },
+        {
+          "round": 2,
+          "checked_seconds": 38.056919792,
+          "F": 1140.0
+        },
+        {
+          "round": 3,
+          "checked_seconds": 56.842278667,
+          "F": 996.0
+        },
+        {
+          "round": 4,
+          "checked_seconds": 75.93366575,
+          "F": 848.0
+        },
+        {
+          "round": 5,
+          "checked_seconds": 98.7005455,
+          "F": 702.0
+        },
+        {
+          "round": 6,
+          "checked_seconds": 114.60786949999999,
+          "F": 702.0
+        },
+        {
+          "round": 7,
+          "checked_seconds": 144.679715959,
+          "F": 554.0
+        },
+        {
+          "round": 8,
+          "checked_seconds": 175.725587917,
+          "F": 410.0
+        },
+        {
+          "round": 9,
+          "checked_seconds": 201.312779417,
+          "F": 305.0
+        },
+        {
+          "round": 10,
+          "checked_seconds": 249.889551625,
+          "F": 257.0
+        },
+        {
+          "round": 11,
+          "checked_seconds": 310.93846554099997,
+          "F": 257.0
+        },
+        {
+          "round": 12,
+          "checked_seconds": 355.094579624,
+          "F": 157.0
+        },
+        {
+          "round": 13,
+          "checked_seconds": 424.087583332,
+          "F": 157.0
+        },
+        {
+          "round": 14,
+          "checked_seconds": 507.360415499,
+          "F": 157.0
+        },
+        {
+          "round": 15,
+          "checked_seconds": 567.296511332,
+          "F": 157.0
+        },
+        {
+          "round": 16,
+          "checked_seconds": 650.5270527490001,
+          "F": 157.0
+        },
+        {
+          "round": 17,
+          "checked_seconds": 673.6999835830001,
+          "F": 157.0
+        }
+      ]
+    },
+    {
+      "trial": {
+        "id": "v2best3-01",
+        "arm": "single_v2_best3",
+        "replicate": 1,
+        "api_seed_base": 4100000,
+        "path": "single-v2-best3/seed-01"
+      },
+      "final": {
+        "F": 151.0,
+        "delivered": 9,
+        "collisions": 0
+      },
+      "checked_seconds": 250.80417958499996,
+      "rounds": 13,
+      "answers": 39,
+      "wall_seconds": 251.23640394210815,
+      "stopping": "target_reached",
+      "reached_target": true,
+      "requests": 39,
+      "http_errors": 0,
+      "reported_cost_usd": 0.1574034,
+      "trace": [
+        {
+          "round": 0,
+          "checked_seconds": 11.174976292,
+          "F": 1328.0
+        },
+        {
+          "round": 1,
+          "checked_seconds": 22.045144792,
+          "F": 1180.0
+        },
+        {
+          "round": 2,
+          "checked_seconds": 35.045819001,
+          "F": 1032.0
+        },
+        {
+          "round": 3,
+          "checked_seconds": 49.077572542999995,
+          "F": 884.0
+        },
+        {
+          "round": 4,
+          "checked_seconds": 67.87547091799999,
+          "F": 738.0
+        },
+        {
+          "round": 5,
+          "checked_seconds": 85.07648687599999,
+          "F": 690.0
+        },
+        {
+          "round": 6,
+          "checked_seconds": 104.79081520999999,
+          "F": 590.0
+        },
+        {
+          "round": 7,
+          "checked_seconds": 129.094059668,
+          "F": 444.0
+        },
+        {
+          "round": 8,
+          "checked_seconds": 152.079283168,
+          "F": 444.0
+        },
+        {
+          "round": 9,
+          "checked_seconds": 180.42485762599998,
+          "F": 444.0
+        },
+        {
+          "round": 10,
+          "checked_seconds": 212.50482262599996,
+          "F": 299.0
+        },
+        {
+          "round": 11,
+          "checked_seconds": 233.60263266799996,
+          "F": 251.0
+        },
+        {
+          "round": 12,
+          "checked_seconds": 250.80417958499996,
+          "F": 151.0
+        }
+      ]
+    },
+    {
+      "trial": {
+        "id": "v2best3-02",
+        "arm": "single_v2_best3",
+        "replicate": 2,
+        "api_seed_base": 4200000,
+        "path": "single-v2-best3/seed-02"
+      },
+      "final": {
+        "F": 152.0,
+        "delivered": 9,
+        "collisions": 0
+      },
+      "checked_seconds": 195.321390166,
+      "rounds": 10,
+      "answers": 30,
+      "wall_seconds": 195.61451411247253,
+      "stopping": "target_reached",
+      "reached_target": true,
+      "requests": 30,
+      "http_errors": 0,
+      "reported_cost_usd": 0.11881905,
+      "trace": [
+        {
+          "round": 0,
+          "checked_seconds": 7.914496083,
+          "F": 1328.0
+        },
+        {
+          "round": 1,
+          "checked_seconds": 20.1491755,
+          "F": 1180.0
+        },
+        {
+          "round": 2,
+          "checked_seconds": 31.716378915999996,
+          "F": 1033.0
+        },
+        {
+          "round": 3,
+          "checked_seconds": 48.347023166,
+          "F": 886.0
+        },
+        {
+          "round": 4,
+          "checked_seconds": 77.313650916,
+          "F": 738.0
+        },
+        {
+          "round": 5,
+          "checked_seconds": 97.628275291,
+          "F": 594.0
+        },
+        {
+          "round": 6,
+          "checked_seconds": 118.28052829099998,
+          "F": 446.0
+        },
+        {
+          "round": 7,
+          "checked_seconds": 143.82634074999999,
+          "F": 442.0
+        },
+        {
+          "round": 8,
+          "checked_seconds": 174.52602379099997,
+          "F": 298.0
+        },
+        {
+          "round": 9,
+          "checked_seconds": 195.321390166,
+          "F": 152.0
+        }
+      ]
+    },
+    {
+      "trial": {
+        "id": "v2best3-03",
+        "arm": "single_v2_best3",
+        "replicate": 3,
+        "api_seed_base": 4300000,
+        "path": "single-v2-best3/seed-03"
+      },
+      "final": {
+        "F": 152.0,
+        "delivered": 9,
+        "collisions": 0
+      },
+      "checked_seconds": 213.41192895800003,
+      "rounds": 11,
+      "answers": 33,
+      "wall_seconds": 213.77899599075317,
+      "stopping": "target_reached",
+      "reached_target": true,
+      "requests": 33,
+      "http_errors": 0,
+      "reported_cost_usd": 0.1387212,
+      "trace": [
+        {
+          "round": 0,
+          "checked_seconds": 7.805797292,
+          "F": 1328.0
+        },
+        {
+          "round": 1,
+          "checked_seconds": 18.886744958999998,
+          "F": 1180.0
+        },
+        {
+          "round": 2,
+          "checked_seconds": 32.099968542,
+          "F": 1032.0
+        },
+        {
+          "round": 3,
+          "checked_seconds": 47.739997583,
+          "F": 884.0
+        },
+        {
+          "round": 4,
+          "checked_seconds": 61.716497917,
+          "F": 740.0
+        },
+        {
+          "round": 5,
+          "checked_seconds": 79.503886084,
+          "F": 594.0
+        },
+        {
+          "round": 6,
+          "checked_seconds": 98.919828209,
+          "F": 446.0
+        },
+        {
+          "round": 7,
+          "checked_seconds": 127.188406,
+          "F": 302.0
+        },
+        {
+          "round": 8,
+          "checked_seconds": 152.03743120800002,
+          "F": 254.0
+        },
+        {
+          "round": 9,
+          "checked_seconds": 187.96199900000002,
+          "F": 154.0
+        },
+        {
+          "round": 10,
+          "checked_seconds": 213.41192895800003,
+          "F": 152.0
+        }
+      ]
+    },
+    {
+      "trial": {
+        "id": "v2best3-04",
+        "arm": "single_v2_best3",
+        "replicate": 4,
+        "api_seed_base": 4400000,
+        "path": "single-v2-best3/seed-04"
+      },
+      "final": {
+        "F": 148.0,
+        "delivered": 9,
+        "collisions": 0
+      },
+      "checked_seconds": 156.30299720899998,
+      "rounds": 9,
+      "answers": 27,
+      "wall_seconds": 368.4786009788513,
+      "stopping": "target_reached",
+      "reached_target": true,
+      "requests": 40,
+      "http_errors": 13,
+      "reported_cost_usd": 0.09009675,
+      "trace": [
+        {
+          "round": 0,
+          "checked_seconds": 12.0148795,
+          "F": 1328.0
+        },
+        {
+          "round": 1,
+          "checked_seconds": 26.352615125,
+          "F": 1180.0
+        },
+        {
+          "round": 2,
+          "checked_seconds": 36.901149959,
+          "F": 1032.0
+        },
+        {
+          "round": 3,
+          "checked_seconds": 50.964013791999996,
+          "F": 884.0
+        },
+        {
+          "round": 4,
+          "checked_seconds": 65.57640070899998,
+          "F": 738.0
+        },
+        {
+          "round": 5,
+          "checked_seconds": 85.37687879199999,
+          "F": 590.0
+        },
+        {
+          "round": 6,
+          "checked_seconds": 105.72643016699999,
+          "F": 444.0
+        },
+        {
+          "round": 7,
+          "checked_seconds": 130.00766983399998,
+          "F": 296.0
+        },
+        {
+          "round": 8,
+          "checked_seconds": 156.30299720899998,
+          "F": 148.0
+        }
+      ]
+    },
+    {
+      "trial": {
+        "id": "v2best3-05",
+        "arm": "single_v2_best3",
+        "replicate": 5,
+        "api_seed_base": 4500000,
+        "path": "single-v2-best3/seed-05"
+      },
+      "final": {
+        "F": 153.0,
+        "delivered": 9,
+        "collisions": 0
+      },
+      "checked_seconds": 449.6537516270001,
+      "rounds": 16,
+      "answers": 48,
+      "wall_seconds": 480.90534710884094,
+      "stopping": "target_reached",
+      "reached_target": true,
+      "requests": 49,
+      "http_errors": 1,
+      "reported_cost_usd": 0.25017104999999995,
+      "trace": [
+        {
+          "round": 0,
+          "checked_seconds": 10.809337292,
+          "F": 1328.0
+        },
+        {
+          "round": 1,
+          "checked_seconds": 24.817849625,
+          "F": 1180.0
+        },
+        {
+          "round": 2,
+          "checked_seconds": 43.427617250000004,
+          "F": 1032.0
+        },
+        {
+          "round": 3,
+          "checked_seconds": 60.165968625,
+          "F": 885.0
+        },
+        {
+          "round": 4,
+          "checked_seconds": 81.81202987500001,
+          "F": 739.0
+        },
+        {
+          "round": 5,
+          "checked_seconds": 102.142868875,
+          "F": 597.0
+        },
+        {
+          "round": 6,
+          "checked_seconds": 127.959657542,
+          "F": 461.0
+        },
+        {
+          "round": 7,
+          "checked_seconds": 161.493751501,
+          "F": 317.0
+        },
+        {
+          "round": 8,
+          "checked_seconds": 189.58891870899998,
+          "F": 269.0
+        },
+        {
+          "round": 9,
+          "checked_seconds": 221.25814379299996,
+          "F": 269.0
+        },
+        {
+          "round": 10,
+          "checked_seconds": 265.79053266799997,
+          "F": 169.0
+        },
+        {
+          "round": 11,
+          "checked_seconds": 290.74932896,
+          "F": 169.0
+        },
+        {
+          "round": 12,
+          "checked_seconds": 325.95035621000005,
+          "F": 169.0
+        },
+        {
+          "round": 13,
+          "checked_seconds": 376.47644833500004,
+          "F": 160.0
+        },
+        {
+          "round": 14,
+          "checked_seconds": 415.21084421000006,
+          "F": 154.0
+        },
+        {
+          "round": 15,
+          "checked_seconds": 449.6537516270001,
+          "F": 153.0
+        }
+      ]
+    },
+    {
+      "trial": {
+        "id": "v2best3-06",
+        "arm": "single_v2_best3",
+        "replicate": 6,
+        "api_seed_base": 4600000,
+        "path": "single-v2-best3/seed-06"
+      },
+      "final": {
+        "F": 152.0,
+        "delivered": 9,
+        "collisions": 0
+      },
+      "checked_seconds": 190.4798305,
+      "rounds": 10,
+      "answers": 30,
+      "wall_seconds": 208.7518448829651,
+      "stopping": "target_reached",
+      "reached_target": true,
+      "requests": 31,
+      "http_errors": 1,
+      "reported_cost_usd": 0.11652614999999998,
+      "trace": [
+        {
+          "round": 0,
+          "checked_seconds": 10.380009750000001,
+          "F": 1328.0
+        },
+        {
+          "round": 1,
+          "checked_seconds": 22.324131917000003,
+          "F": 1180.0
+        },
+        {
+          "round": 2,
+          "checked_seconds": 35.029441584,
+          "F": 1032.0
+        },
+        {
+          "round": 3,
+          "checked_seconds": 50.901465334,
+          "F": 884.0
+        },
+        {
+          "round": 4,
+          "checked_seconds": 65.80246420900001,
+          "F": 738.0
+        },
+        {
+          "round": 5,
+          "checked_seconds": 86.82510875,
+          "F": 590.0
+        },
+        {
+          "round": 6,
+          "checked_seconds": 106.13691425,
+          "F": 442.0
+        },
+        {
+          "round": 7,
+          "checked_seconds": 132.201371042,
+          "F": 314.0
+        },
+        {
+          "round": 8,
+          "checked_seconds": 159.382623459,
+          "F": 166.0
+        },
+        {
+          "round": 9,
+          "checked_seconds": 190.4798305,
+          "F": 152.0
+        }
+      ]
+    },
+    {
+      "trial": {
+        "id": "v2best3-07",
+        "arm": "single_v2_best3",
+        "replicate": 7,
+        "api_seed_base": 4700000,
+        "path": "single-v2-best3/seed-07"
+      },
+      "final": {
+        "F": 148.0,
+        "delivered": 9,
+        "collisions": 0
+      },
+      "checked_seconds": 279.46229191699996,
+      "rounds": 13,
+      "answers": 39,
+      "wall_seconds": 384.50476908683777,
+      "stopping": "target_reached",
+      "reached_target": true,
+      "requests": 42,
+      "http_errors": 2,
+      "reported_cost_usd": 0.16294514999999996,
+      "trace": [
+        {
+          "round": 0,
+          "checked_seconds": 9.517576875000001,
+          "F": 1328.0
+        },
+        {
+          "round": 1,
+          "checked_seconds": 21.00722495800001,
+          "F": 1180.0
+        },
+        {
+          "round": 2,
+          "checked_seconds": 32.58129733300001,
+          "F": 1032.0
+        },
+        {
+          "round": 3,
+          "checked_seconds": 60.883763833,
+          "F": 884.0
+        },
+        {
+          "round": 4,
+          "checked_seconds": 76.77451545800001,
+          "F": 736.0
+        },
+        {
+          "round": 5,
+          "checked_seconds": 95.257129667,
+          "F": 588.0
+        },
+        {
+          "round": 6,
+          "checked_seconds": 111.00658991700003,
+          "F": 540.0
+        },
+        {
+          "round": 7,
+          "checked_seconds": 131.0812075,
+          "F": 440.0
+        },
+        {
+          "round": 8,
+          "checked_seconds": 149.378387875,
+          "F": 440.0
+        },
+        {
+          "round": 9,
+          "checked_seconds": 173.963580042,
+          "F": 440.0
+        },
+        {
+          "round": 10,
+          "checked_seconds": 205.98397729199996,
+          "F": 296.0
+        },
+        {
+          "round": 11,
+          "checked_seconds": 233.924617459,
+          "F": 248.0
+        },
+        {
+          "round": 12,
+          "checked_seconds": 279.46229191699996,
+          "F": 148.0
+        }
+      ]
+    },
+    {
+      "trial": {
+        "id": "v2best3-08",
+        "arm": "single_v2_best3",
+        "replicate": 8,
+        "api_seed_base": 4800000,
+        "path": "single-v2-best3/seed-08"
+      },
+      "final": {
+        "F": 152.0,
+        "delivered": 9,
+        "collisions": 0
+      },
+      "checked_seconds": 363.318373502,
+      "rounds": 14,
+      "answers": 42,
+      "wall_seconds": 363.84599685668945,
+      "stopping": "target_reached",
+      "reached_target": true,
+      "requests": 42,
+      "http_errors": 0,
+      "reported_cost_usd": 0.20989994999999995,
+      "trace": [
+        {
+          "round": 0,
+          "checked_seconds": 11.853337167,
+          "F": 1332.0
+        },
+        {
+          "round": 1,
+          "checked_seconds": 27.251177376,
+          "F": 1184.0
+        },
+        {
+          "round": 2,
+          "checked_seconds": 42.069074709,
+          "F": 1036.0
+        },
+        {
+          "round": 3,
+          "checked_seconds": 54.834722834,
+          "F": 890.0
+        },
+        {
+          "round": 4,
+          "checked_seconds": 73.648013751,
+          "F": 879.0
+        },
+        {
+          "round": 5,
+          "checked_seconds": 91.430911043,
+          "F": 731.0
+        },
+        {
+          "round": 6,
+          "checked_seconds": 110.331720377,
+          "F": 596.0
+        },
+        {
+          "round": 7,
+          "checked_seconds": 127.03392921,
+          "F": 450.0
+        },
+        {
+          "round": 8,
+          "checked_seconds": 149.16386875199998,
+          "F": 303.0
+        },
+        {
+          "round": 9,
+          "checked_seconds": 181.85902295999998,
+          "F": 303.0
+        },
+        {
+          "round": 10,
+          "checked_seconds": 210.15148821,
+          "F": 303.0
+        },
+        {
+          "round": 11,
+          "checked_seconds": 266.955133543,
+          "F": 255.0
+        },
+        {
+          "round": 12,
+          "checked_seconds": 312.836440293,
+          "F": 154.0
+        },
+        {
+          "round": 13,
+          "checked_seconds": 363.318373502,
+          "F": 152.0
+        }
+      ]
+    },
+    {
+      "trial": {
+        "id": "v2best3-09",
+        "arm": "single_v2_best3",
+        "replicate": 9,
+        "api_seed_base": 4900000,
+        "path": "single-v2-best3/seed-09"
+      },
+      "final": {
+        "F": 153.0,
+        "delivered": 9,
+        "collisions": 0
+      },
+      "checked_seconds": 211.9911195,
+      "rounds": 10,
+      "answers": 30,
+      "wall_seconds": 212.2570219039917,
+      "stopping": "target_reached",
+      "reached_target": true,
+      "requests": 30,
+      "http_errors": 0,
+      "reported_cost_usd": 0.11508104999999999,
+      "trace": [
+        {
+          "round": 0,
+          "checked_seconds": 13.360894416,
+          "F": 1328.0
+        },
+        {
+          "round": 1,
+          "checked_seconds": 24.407945375,
+          "F": 1180.0
+        },
+        {
+          "round": 2,
+          "checked_seconds": 36.800609832999996,
+          "F": 1032.0
+        },
+        {
+          "round": 3,
+          "checked_seconds": 50.729892583,
+          "F": 886.0
+        },
+        {
+          "round": 4,
+          "checked_seconds": 70.79904049999999,
+          "F": 742.0
+        },
+        {
+          "round": 5,
+          "checked_seconds": 93.633565166,
+          "F": 594.0
+        },
+        {
+          "round": 6,
+          "checked_seconds": 115.01352741599999,
+          "F": 447.0
+        },
+        {
+          "round": 7,
+          "checked_seconds": 134.989024041,
+          "F": 301.0
+        },
+        {
+          "round": 8,
+          "checked_seconds": 197.634484666,
+          "F": 253.0
+        },
+        {
+          "round": 9,
+          "checked_seconds": 211.9911195,
+          "F": 153.0
+        }
+      ]
+    }
+  ],
+  "independent_replay_passed": true
+}

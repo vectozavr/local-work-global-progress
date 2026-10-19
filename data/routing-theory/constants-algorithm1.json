@@ -1,0 +1,41 @@
+[
+ {
+  "label": "Map 1, original prompts",
+  "runs": 10,
+  "rounds": 78,
+  "mu": 0.6,
+  "q": 0.58,
+  "err": 47.4,
+  "alpha": 0.247,
+  "B": 47.4,
+  "coupling": 39,
+  "obs": 12.5,
+  "up": 211.7
+ },
+ {
+  "label": "Map 1, revised prompts",
+  "runs": 20,
+  "rounds": 145,
+  "mu": 0.43,
+  "q": 0.66,
+  "err": 45.5,
+  "alpha": 0.246,
+  "B": 45.5,
+  "coupling": 30,
+  "obs": 5.9,
+  "up": 254.2
+ },
+ {
+  "label": "Map 2, revised prompts",
+  "runs": 20,
+  "rounds": 159,
+  "mu": 0.7,
+  "q": 0.65,
+  "err": 36.5,
+  "alpha": 0.242,
+  "B": 36.5,
+  "coupling": 32,
+  "obs": 7.2,
+  "up": 226.8
+ }
+]

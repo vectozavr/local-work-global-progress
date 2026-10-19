@@ -1,0 +1,36 @@
+{
+  "campaign": "two-floors-best-of-6",
+  "paper": "Best-of-6 (Table 1, Figure 3c)",
+  "map": "two-floors",
+  "runner": "two_floors",
+  "trial_path": "single-v2-best6/seed-{seed:02d}",
+  "paper_seeds": "0-19",
+  "seed_base": "4000000 + 100000 * seed",
+  "description": "6 agents in parallel (best-of-6), each controlling eighteen robots on two floors and changing one route per answer; the best improving answer of each round is accepted. Stops at a safe plan with F1 <= 153 and F2 <= 156, after 5 rounds without improvement, or after 80 rounds.",
+  "stopping": "5 rounds without improvement (30 answers), both floors safe with F1<=153 and F2<=156, or 80 rounds",
+  "settings": {
+    "model": "openai/gpt-oss-120b",
+    "provider": "groq",
+    "reasoning_effort": "medium",
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "timeout": 3600.0,
+    "retry_seed_policy": "resample",
+    "target_F": [
+      153.0,
+      156.0
+    ],
+    "format_attempts": 3,
+    "transport_attempts": 20,
+    "initial_F": 2955.0,
+    "certified_global_minimum": 291.0,
+    "floor_optima": [
+      144.0,
+      147.0
+    ],
+    "width": 6,
+    "max_updated_robots": 1,
+    "round_budget": 80,
+    "patience_rounds": 5
+  }
+}

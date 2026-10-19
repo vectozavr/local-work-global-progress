@@ -1,0 +1,107 @@
+{
+  "workspace": ".",
+  "model": "openai/gpt-oss-120b",
+  "provider": "groq",
+  "reasoning_effort": "medium",
+  "temperature": 0.6,
+  "top_p": 0.95,
+  "timeout": 3600.0,
+  "hard_deadline": null,
+  "api_seed": true,
+  "retry_seed_policy": "resample",
+  "target_F": 153.0,
+  "format_attempts": 3,
+  "transport_attempts": 20,
+  "initial_F": 1476.0,
+  "certified_global_minimum": 144.0,
+  "map_file_sha256": "437a6163b7757e618709c47390017da686c790ffa2b77435594ad369dd90b77d",
+  "token_policy": "No max_tokens, max_completion_tokens or reasoning token cap is sent.",
+  "created_utc": "2026-10-16T16:34:28Z",
+  "version": 1,
+  "profile": "ninecars-single-v2-partial-1-best3",
+  "protocol_script": "protocol_openrouter_single_v2.py",
+  "arm": "single_v2_best3",
+  "prompt_version": "single-v2-k1-best3",
+  "width": 3,
+  "max_updated_robots": 1,
+  "round_budget": 40,
+  "patience_rounds": 5,
+  "replicates": 10,
+  "cars": 9,
+  "description": "Parallel best of three one-route single agents with the v2 prompt: every round, three copies receive the same prompt (installed plan, accepted changes, attempts rejected on that plan) with their own seeds; each replaces one route; the best strictly improving answer is installed and the other two are discarded; if none improves, all three enter the rejected-attempt log. Round time is the slowest of the three answers. Byte-identical source snapshot to multiseed-ninecars-single-v2-one-update-20261016.",
+  "stopping": "5 rounds without improvement (15 answers), safe plan with F<=153, or 40 rounds (120 answers)",
+  "seed_design": "copy c in round r uses api seed base + 1000 r + c; base = 4000000 + 100000 * replicate",
+  "trials": [
+    {
+      "id": "v2best3-00",
+      "arm": "single_v2_best3",
+      "replicate": 0,
+      "api_seed_base": 4000000,
+      "path": "single-v2-best3/seed-00"
+    },
+    {
+      "id": "v2best3-01",
+      "arm": "single_v2_best3",
+      "replicate": 1,
+      "api_seed_base": 4100000,
+      "path": "single-v2-best3/seed-01"
+    },
+    {
+      "id": "v2best3-02",
+      "arm": "single_v2_best3",
+      "replicate": 2,
+      "api_seed_base": 4200000,
+      "path": "single-v2-best3/seed-02"
+    },
+    {
+      "id": "v2best3-03",
+      "arm": "single_v2_best3",
+      "replicate": 3,
+      "api_seed_base": 4300000,
+      "path": "single-v2-best3/seed-03"
+    },
+    {
+      "id": "v2best3-04",
+      "arm": "single_v2_best3",
+      "replicate": 4,
+      "api_seed_base": 4400000,
+      "path": "single-v2-best3/seed-04"
+    },
+    {
+      "id": "v2best3-05",
+      "arm": "single_v2_best3",
+      "replicate": 5,
+      "api_seed_base": 4500000,
+      "path": "single-v2-best3/seed-05"
+    },
+    {
+      "id": "v2best3-06",
+      "arm": "single_v2_best3",
+      "replicate": 6,
+      "api_seed_base": 4600000,
+      "path": "single-v2-best3/seed-06"
+    },
+    {
+      "id": "v2best3-07",
+      "arm": "single_v2_best3",
+      "replicate": 7,
+      "api_seed_base": 4700000,
+      "path": "single-v2-best3/seed-07"
+    },
+    {
+      "id": "v2best3-08",
+      "arm": "single_v2_best3",
+      "replicate": 8,
+      "api_seed_base": 4800000,
+      "path": "single-v2-best3/seed-08"
+    },
+    {
+      "id": "v2best3-09",
+      "arm": "single_v2_best3",
+      "replicate": 9,
+      "api_seed_base": 4900000,
+      "path": "single-v2-best3/seed-09"
+    }
+  ],
+  "placement_decided_before_results": "main text: Figure 3(a) line and Table 1 column"
+}
