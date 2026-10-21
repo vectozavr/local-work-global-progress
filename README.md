@@ -1,6 +1,6 @@
 # Local Work, Global Progress: A Convergence Theory of AI Agent Collaboration
 
-[![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/XXXX.XXXXX)
+[![arXiv](https://img.shields.io/badge/arXiv-2610.28286-b31b1b.svg)](https://arxiv.org/abs/2610.28286)
 
 ![One epoch of the protocol](assets/protocol-overview.png)
 
@@ -29,7 +29,7 @@ This repository contains the three experiments of the paper:
   title         = {Local Work, Global Progress: A Convergence Theory of AI Agent Collaboration},
   author        = {Ilin, Ivan and Richt{\'a}rik, Peter},
   year          = {2026},
-  eprint        = {XXXX.XXXXX},
+  eprint        = {2610.28286},
   archivePrefix = {arXiv},
   primaryClass  = {cs.MA}
 }
